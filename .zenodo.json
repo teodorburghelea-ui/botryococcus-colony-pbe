@@ -3,9 +3,18 @@
   "upload_type": "software",
   "description": "Code, figure-extracted data, fitted parameters, search traces, per-histogram predictions and numerical checks for the article \"Testing population-balance descriptions of colony growth, separation and light access in Botryococcus braunii\". Code under MIT; data and results under CC-BY-4.0. Publisher PDFs and figure images are not redistributed.",
   "creators": [
-    {"name": "Burghelea, T.", "affiliation": "Laboratoire de Thermique et Énergie de Nantes (LTeN), UMR 6607, Nantes Université, CNRS, Nantes, France"}
+    {
+      "name": "Burghelea, T.",
+      "affiliation": "Laboratoire de Thermique et Énergie de Nantes (LTeN), UMR 6607, Nantes Université, CNRS, Nantes, France",
+      "orcid": "0000-0003-1631-9537"
+    }
   ],
   "license": "mit",
-  "keywords": ["Botryococcus braunii", "population balance", "colony size distribution", "photobioreactor"],
+  "keywords": [
+    "Botryococcus braunii",
+    "population balance",
+    "colony size distribution",
+    "photobioreactor"
+  ],
   "access_right": "open"
 }
