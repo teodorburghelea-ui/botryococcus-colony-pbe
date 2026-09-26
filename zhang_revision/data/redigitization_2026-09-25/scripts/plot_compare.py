@@ -1,7 +1,8 @@
+from pathlib import Path
 import csv, numpy as np, matplotlib
 matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from collections import defaultdict
-base='/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/data/'
+base=str(Path(__file__).resolve().parents[3]) + '/data/'
 new=defaultdict(lambda: np.zeros(12)); old=defaultdict(lambda: np.zeros(12))
 for r in csv.DictReader(open('zhang_kojima_1998_fig3_redigitized.csv')):
     new[(int(r['preculture_irradiance_klx']),int(r['lighted_volume_percent']),int(r['days']))][int(round(float(r['diameter_marker_mm'])/0.05))]=float(r['frequency_percent_raw'])

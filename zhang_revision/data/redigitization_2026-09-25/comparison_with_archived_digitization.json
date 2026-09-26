@@ -1,0 +1,198 @@
+[
+ {
+  "klx": 3,
+  "VL": 5,
+  "day": 0,
+  "TV_old_vs_new": 0.3176,
+  "note": "D30 old(bin centres)=0.173 mm, new(marker positions)=0.160 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 5,
+  "day": 4,
+  "TV_old_vs_new": 0.3768,
+  "note": "D30 old(bin centres)=0.128 mm, new(marker positions)=0.087 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 5,
+  "day": 16,
+  "TV_old_vs_new": 0.14379999999999996,
+  "note": "D30 old(bin centres)=0.084 mm, new(marker positions)=0.058 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 25,
+  "day": 0,
+  "TV_old_vs_new": 0.2785261473852615,
+  "note": "D30 old(bin centres)=0.182 mm, new(marker positions)=0.160 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 25,
+  "day": 4,
+  "TV_old_vs_new": 0.0996,
+  "note": "D30 old(bin centres)=0.182 mm, new(marker positions)=0.157 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 25,
+  "day": 16,
+  "TV_old_vs_new": 0.10230000000000003,
+  "note": "D30 old(bin centres)=0.101 mm, new(marker positions)=0.070 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 50,
+  "day": 0,
+  "TV_old_vs_new": 0.21999999999999997,
+  "note": "D30 old(bin centres)=0.189 mm, new(marker positions)=0.160 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 50,
+  "day": 4,
+  "TV_old_vs_new": 0.1459534046595341,
+  "note": "D30 old(bin centres)=0.187 mm, new(marker positions)=0.148 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 50,
+  "day": 16,
+  "TV_old_vs_new": 0.19540000000000007,
+  "note": "D30 old(bin centres)=0.131 mm, new(marker positions)=0.112 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 100,
+  "day": 0,
+  "TV_old_vs_new": 0.17,
+  "note": "D30 old(bin centres)=0.201 mm, new(marker positions)=0.160 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 100,
+  "day": 4,
+  "TV_old_vs_new": 0.10149999999999997,
+  "note": "D30 old(bin centres)=0.218 mm, new(marker positions)=0.193 mm"
+ },
+ {
+  "klx": 3,
+  "VL": 100,
+  "day": 16,
+  "TV_old_vs_new": 0.08134386561343863,
+  "note": "D30 old(bin centres)=0.220 mm, new(marker positions)=0.197 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 5,
+  "day": 0,
+  "TV_old_vs_new": 0.21,
+  "note": "D30 old(bin centres)=0.123 mm, new(marker positions)=0.087 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 5,
+  "day": 5,
+  "TV_old_vs_new": 0.06000000000000001,
+  "note": "D30 old(bin centres)=0.087 mm, new(marker positions)=0.061 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 5,
+  "day": 18,
+  "TV_old_vs_new": 0.04189999999999997,
+  "note": "D30 old(bin centres)=0.079 mm, new(marker positions)=0.053 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 5,
+  "day": 25,
+  "TV_old_vs_new": null,
+  "note": "not in source figure"
+ },
+ {
+  "klx": 10,
+  "VL": 25,
+  "day": 0,
+  "TV_old_vs_new": 0.18,
+  "note": "D30 old(bin centres)=0.122 mm, new(marker positions)=0.087 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 25,
+  "day": 5,
+  "TV_old_vs_new": 0.10650000000000003,
+  "note": "D30 old(bin centres)=0.142 mm, new(marker positions)=0.108 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 25,
+  "day": 18,
+  "TV_old_vs_new": 0.13080000000000003,
+  "note": "D30 old(bin centres)=0.088 mm, new(marker positions)=0.055 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 25,
+  "day": 25,
+  "TV_old_vs_new": null,
+  "note": "not in source figure"
+ },
+ {
+  "klx": 10,
+  "VL": 50,
+  "day": 0,
+  "TV_old_vs_new": 0.21000000000000002,
+  "note": "D30 old(bin centres)=0.122 mm, new(marker positions)=0.087 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 50,
+  "day": 5,
+  "TV_old_vs_new": 0.09570000000000001,
+  "note": "D30 old(bin centres)=0.193 mm, new(marker positions)=0.165 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 50,
+  "day": 18,
+  "TV_old_vs_new": 0.12999999999999998,
+  "note": "D30 old(bin centres)=0.117 mm, new(marker positions)=0.079 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 50,
+  "day": 25,
+  "TV_old_vs_new": null,
+  "note": "not in source figure"
+ },
+ {
+  "klx": 10,
+  "VL": 100,
+  "day": 0,
+  "TV_old_vs_new": 0.22999999999999998,
+  "note": "D30 old(bin centres)=0.121 mm, new(marker positions)=0.087 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 100,
+  "day": 5,
+  "TV_old_vs_new": 0.1314,
+  "note": "D30 old(bin centres)=0.190 mm, new(marker positions)=0.154 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 100,
+  "day": 18,
+  "TV_old_vs_new": 0.3917328267173283,
+  "note": "D30 old(bin centres)=0.318 mm, new(marker positions)=0.239 mm"
+ },
+ {
+  "klx": 10,
+  "VL": 100,
+  "day": 25,
+  "TV_old_vs_new": 0.27181781821817824,
+  "note": "D30 old(bin centres)=0.219 mm, new(marker positions)=0.151 mm"
+ }
+]

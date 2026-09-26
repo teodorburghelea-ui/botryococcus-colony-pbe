@@ -1,6 +1,7 @@
+from pathlib import Path
 import csv, numpy as np, json
 from collections import defaultdict
-OLD = '/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/data/zhang_kojima_1998_fig3_digitized.csv'
+OLD = str(Path(__file__).resolve().parents[3]) + '/data/zhang_kojima_1998_fig3_digitized.csv'
 old = defaultdict(list)
 for r in csv.DictReader(open(OLD)):
     old[(int(r['preculture_irradiance_klx']), int(r['lighted_volume_percent']), int(float(r['days'])))].append(float(r['frequency_percent']))

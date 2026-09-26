@@ -90,16 +90,16 @@ Finished in 141.8 s
   "individual_predictions_better_than_persistence": 5
 }
 Traceback (most recent call last):
-  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/verify_outputs.py", line 41, in <module>
+  File "<project>/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/verify_outputs.py", line 41, in <module>
     manifest=dict(python=platform.python_version(),numpy=np.__version__,scipy=scipy.__version__,matplotlib=version('matplotlib'),hashes={str(p.relative_to(HERE)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(paths)})
                                                                                                                                                                                  ~~~~~~~~~~~~^^
-  File "/home/teo/miniconda3/lib/python3.13/pathlib/_abc.py", line 625, in read_bytes
+  File "<python>/lib/python3.13/pathlib/_abc.py", line 625, in read_bytes
     with self.open(mode='rb') as f:
          ~~~~~~~~~^^^^^^^^^^^
-  File "/home/teo/miniconda3/lib/python3.13/pathlib/_local.py", line 537, in open
+  File "<python>/lib/python3.13/pathlib/_local.py", line 537, in open
     return io.open(self, mode, buffering, encoding, errors, newline)
            ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-IsADirectoryError: [Errno 21] Is a directory: '/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/data/vdb_reextraction_2026-09-25'
+IsADirectoryError: [Errno 21] Is a directory: '<project>/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/data/vdb_reextraction_2026-09-25'
 
 real	8m2.139s
 user	8m15.989s
