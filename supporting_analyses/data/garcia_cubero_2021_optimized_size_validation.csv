@@ -1,0 +1,5 @@
+condition_id,source_table,optimization_target,temperature_C,light_umol_m2_s,dilution_d_1,colony_size_um,colony_size_sd_um
+single_colony_size_maximum,Table 3,colony size,30.0,1800.0,0.30,317.5,1.2
+triple_response_optimum,Table 4,biomass + hydrocarbon productivity + colony size,26.7,1695.0,0.13,154.0,3.3
+biomass_colony_size_optimum,Table 4,biomass productivity + colony size,30.0,1800.0,0.14,177.1,0.9
+hydrocarbon_colony_size_optimum,Table 4,hydrocarbon productivity + colony size,24.2,1336.0,0.28,234.4,4.1

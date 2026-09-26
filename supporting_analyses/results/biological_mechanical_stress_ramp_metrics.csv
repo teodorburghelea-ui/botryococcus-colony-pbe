@@ -1,0 +1,17 @@
+metric_group,metric,value,reference_value,absolute_difference,definition
+biological_rate,beta_bio_max_d_1,0.18034344657396634,0.185,0.0046565534260336605,Declared generator versus independently fitted benchmark value.
+biological_rate,bio_maturation_center,0.5960102263952718,0.6,0.003989773604728186,Declared generator versus independently fitted benchmark value.
+biological_rate,bio_maturation_width,0.06287161533696364,0.07,0.007128384663036363,Declared generator versus independently fitted benchmark value.
+hydrodynamic_rate,beta_hyd_prefactor_d_1,0.450369810512981,0.48,0.02963018948701901,Declared generator versus independently fitted benchmark value.
+hydrodynamic_rate,hyd_exponent,1.5202892319757608,1.55,0.02971076802423922,Declared generator versus independently fitted benchmark value.
+hydrodynamic_kernel,scaled_small_fragment_alpha,5.039096317466914,5.0,0.03909631746691389,Declared generator versus independently fitted benchmark value.
+hydrodynamic_kernel,scaled_small_fragment_beta,3.084062800871334,3.0,0.084062800871334,Declared generator versus independently fitted benchmark value.
+biological_kernel,scaled_new_branch_alpha,3.479575198053092,3.5,0.02042480194690821,Declared generator versus independently fitted benchmark value.
+biological_kernel,scaled_new_branch_beta,8.912576347935675,9.0,0.08742365206432545,Declared generator versus independently fitted benchmark value.
+biological_kernel,shell_loss_fraction,0.08,0.08,0.0,Declared generator versus independently fitted benchmark value.
+held_out_rate_prediction,hydrodynamic_rate_rmse_d_1,0.006887771333712446,0.0,nan,No-refit fitted-versus-generator hydrodynamic hazard across both held-out ramps.
+held_out_rate_prediction,biological_rate_rmse_d_1,0.0028903164252036652,0.0,nan,No-refit fitted-versus-generator biological hazard across both held-out ramps.
+kernel_recovery,hydrodynamic_kernel_total_variation,0.012460729819365801,0.0,nan,Total variation between fitted and declared two-fragment b_hyd.
+kernel_recovery,biological_kernel_total_variation,0.002741624025099611,0.0,nan,Total variation between fitted and declared retained-mother/new-branch b_bio.
+lognormal_projection,maximum_median_diameter_error_um,1.5789066432168397,0.0,nan,Maximum recovered-versus-generator local OU median-diameter difference over the stress grid.
+lognormal_projection,maximum_log_standard_deviation_error,0.002278986982342246,0.0,nan,Maximum recovered-versus-generator local OU log-width difference over the stress grid.

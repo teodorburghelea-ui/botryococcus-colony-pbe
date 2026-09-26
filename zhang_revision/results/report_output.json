@@ -1,0 +1,188 @@
+{
+  "primary": [
+    {
+      "scenario": "primary",
+      "law": "none",
+      "model": "persistence",
+      "training_TV": 0.5024515946093894,
+      "test_TV": 0.5531333253880932,
+      "scalar_rmse_3klx": 0.07309668369923614,
+      "scalar_rmse_10klx": 0.06449699301453748,
+      "scalar_rmse_10klx_nonhistogram_days": 0.07317648014410472
+    },
+    {
+      "scenario": "primary",
+      "law": "none",
+      "model": "growth_only",
+      "training_TV": 0.6234102167370259,
+      "test_TV": 0.5345322006087715,
+      "scalar_rmse_3klx": 0.15403346804661702,
+      "scalar_rmse_10klx": 0.0770389926575247,
+      "scalar_rmse_10klx_nonhistogram_days": 0.05706418072499532
+    },
+    {
+      "scenario": "primary",
+      "law": "equal_binary",
+      "model": "size_only",
+      "training_TV": 0.3094940978787246,
+      "test_TV": 0.46085157813133776,
+      "scalar_rmse_3klx": 0.043027889428309506,
+      "scalar_rmse_10klx": 0.0679360121637437,
+      "scalar_rmse_10klx_nonhistogram_days": 0.07866260879870635
+    },
+    {
+      "scenario": "primary",
+      "law": "equal_binary",
+      "model": "instantaneous",
+      "training_TV": 0.19391403263589654,
+      "test_TV": 0.37276752691157466,
+      "scalar_rmse_3klx": 0.0285377389089811,
+      "scalar_rmse_10klx": 0.05214524664434516,
+      "scalar_rmse_10klx_nonhistogram_days": 0.059793887683776095
+    },
+    {
+      "scenario": "primary",
+      "law": "equal_binary",
+      "model": "finite_time",
+      "training_TV": 0.19391210405442114,
+      "test_TV": 0.37275922710338555,
+      "scalar_rmse_3klx": 0.02853440715252307,
+      "scalar_rmse_10klx": 0.05214660349383838,
+      "scalar_rmse_10klx_nonhistogram_days": 0.0597954929238411
+    },
+    {
+      "scenario": "primary",
+      "law": "asymmetric_binary",
+      "model": "size_only",
+      "training_TV": 0.3673712508209095,
+      "test_TV": 0.44321646212927024,
+      "scalar_rmse_3klx": 0.048023842906087535,
+      "scalar_rmse_10klx": 0.05719561142529501,
+      "scalar_rmse_10klx_nonhistogram_days": 0.06313709291446981
+    },
+    {
+      "scenario": "primary",
+      "law": "asymmetric_binary",
+      "model": "instantaneous",
+      "training_TV": 0.27512879484937924,
+      "test_TV": 0.3969617069803284,
+      "scalar_rmse_3klx": 0.037483933812809976,
+      "scalar_rmse_10klx": 0.05067332729574052,
+      "scalar_rmse_10klx_nonhistogram_days": 0.056169097193040536
+    },
+    {
+      "scenario": "primary",
+      "law": "asymmetric_binary",
+      "model": "finite_time",
+      "training_TV": 0.2751206239220599,
+      "test_TV": 0.39702355190808064,
+      "scalar_rmse_3klx": 0.037486922243754134,
+      "scalar_rmse_10klx": 0.05067447941841717,
+      "scalar_rmse_10klx_nonhistogram_days": 0.0561668243115973
+    },
+    {
+      "scenario": "primary",
+      "law": "broad_binary",
+      "model": "size_only",
+      "training_TV": 0.33039813448539274,
+      "test_TV": 0.4377994145083569,
+      "scalar_rmse_3klx": 0.04315434443002632,
+      "scalar_rmse_10klx": 0.06137713172862953,
+      "scalar_rmse_10klx_nonhistogram_days": 0.071253451446279
+    },
+    {
+      "scenario": "primary",
+      "law": "broad_binary",
+      "model": "instantaneous",
+      "training_TV": 0.21353048696545635,
+      "test_TV": 0.36607042344434687,
+      "scalar_rmse_3klx": 0.029157337661354383,
+      "scalar_rmse_10klx": 0.05204519098077822,
+      "scalar_rmse_10klx_nonhistogram_days": 0.059824476440779574
+    },
+    {
+      "scenario": "primary",
+      "law": "broad_binary",
+      "model": "finite_time",
+      "training_TV": 0.21291680992887843,
+      "test_TV": 0.37364077184904293,
+      "scalar_rmse_3klx": 0.02842332967530278,
+      "scalar_rmse_10klx": 0.05230329948134039,
+      "scalar_rmse_10klx_nonhistogram_days": 0.06002108475616018
+    }
+  ],
+  "source_initial_moment_audit": [
+    {
+      "preculture": 3,
+      "volume": 5,
+      "day": 0.0,
+      "fig3_D30_marker": 0.15985097895199335,
+      "fig3_D30_uniform": 0.16107506426835758,
+      "fig5_D30": 0.15,
+      "paired_comparison": "valid: Figs. 3 and 5 report the same runs (re-digitization cross-check, RMSE 0.0115 mm)"
+    },
+    {
+      "preculture": 3,
+      "volume": 25,
+      "day": 0.0,
+      "fig3_D30_marker": 0.15999555191991738,
+      "fig3_D30_uniform": 0.16121859839883898,
+      "fig5_D30": 0.15,
+      "paired_comparison": "valid: Figs. 3 and 5 report the same runs (re-digitization cross-check, RMSE 0.0115 mm)"
+    },
+    {
+      "preculture": 3,
+      "volume": 50,
+      "day": 0.0,
+      "fig3_D30_marker": 0.1599843559928277,
+      "fig3_D30_uniform": 0.16120762672046166,
+      "fig5_D30": 0.15,
+      "paired_comparison": "valid: Figs. 3 and 5 report the same runs (re-digitization cross-check, RMSE 0.0115 mm)"
+    },
+    {
+      "preculture": 3,
+      "volume": 100,
+      "day": 0.0,
+      "fig3_D30_marker": 0.1598894019387871,
+      "fig3_D30_uniform": 0.16111329884951162,
+      "fig5_D30": 0.15,
+      "paired_comparison": "valid: Figs. 3 and 5 report the same runs (re-digitization cross-check, RMSE 0.0115 mm)"
+    },
+    {
+      "preculture": 10,
+      "volume": 5,
+      "day": 0.0,
+      "fig3_D30_marker": 0.08685057927180195,
+      "fig3_D30_uniform": 0.08901386978694531,
+      "fig5_D30": 0.07,
+      "paired_comparison": "valid: Figs. 3 and 5 report the same runs (re-digitization cross-check, RMSE 0.0115 mm)"
+    },
+    {
+      "preculture": 10,
+      "volume": 25,
+      "day": 0.0,
+      "fig3_D30_marker": 0.08683519738151814,
+      "fig3_D30_uniform": 0.08899870358519343,
+      "fig5_D30": 0.07,
+      "paired_comparison": "valid: Figs. 3 and 5 report the same runs (re-digitization cross-check, RMSE 0.0115 mm)"
+    },
+    {
+      "preculture": 10,
+      "volume": 50,
+      "day": 0.0,
+      "fig3_D30_marker": 0.08695379415702889,
+      "fig3_D30_uniform": 0.08911564263935656,
+      "fig5_D30": 0.07,
+      "paired_comparison": "valid: Figs. 3 and 5 report the same runs (re-digitization cross-check, RMSE 0.0115 mm)"
+    },
+    {
+      "preculture": 10,
+      "volume": 100,
+      "day": 0.0,
+      "fig3_D30_marker": 0.08689787941531858,
+      "fig3_D30_uniform": 0.08906050795427978,
+      "fig5_D30": 0.07,
+      "paired_comparison": "valid: Figs. 3 and 5 report the same runs (re-digitization cross-check, RMSE 0.0115 mm)"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+model,parameter,value,units,meaning
+environmental_state_closure,D_ref,150.0,um,fixed diameter reference in D_v = D_ref exp(q_*)
+environmental_state_closure,theta_0,-0.12697446783960753,dimensionless,coefficient in the steady environmental state q_*
+environmental_state_closure,theta_temperature,0.3216399359186749,dimensionless,coefficient in the steady environmental state q_*
+environmental_state_closure,theta_light,0.2818252397376125,dimensionless,coefficient in the steady environmental state q_*
+environmental_state_closure,theta_dilution_state,0.34332913061033254,dimensionless,coefficient in the steady environmental state q_*
+uniform_washout_null,D_ref,150.0,um,fixed diameter reference in D_v = D_ref exp(q_*)
+uniform_washout_null,theta_0,-0.028880430522369716,dimensionless,coefficient in the steady environmental state q_*
+uniform_washout_null,theta_temperature,0.2725929172600561,dimensionless,coefficient in the steady environmental state q_*
+uniform_washout_null,theta_light,0.23277822107899343,dimensionless,coefficient in the steady environmental state q_*
+constant_mean_baseline,D_ref,150.0,um,fixed diameter reference in D_v = D_ref exp(q_*)
+constant_mean_baseline,theta_0,0.14197720024413382,dimensionless,coefficient in the steady environmental state q_*
+constant_mean_baseline,theta_temperature,0.0,dimensionless,coefficient in the steady environmental state q_*
+constant_mean_baseline,theta_light,0.0,dimensionless,coefficient in the steady environmental state q_*

@@ -1,0 +1,12 @@
+{
+  "python": "3.13.12",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "elapsed_seconds": 294.01762866973877,
+  "hashes": {
+    "protocol.json": "51ccebee94a384ce70c5f7d614a305fe420f9612e4179905efe0e579c209fa82",
+    "run_ablation.py": "62a07e8e114cd14890165ab035f0bef1e27c96eefa0968248ffa9c75a2182b39",
+    "data/source_distributions.csv": "a1dcba483f071e8723ef961044955ac0cef0eb2ca7bd37f89442e63dc20b1659",
+    "data/source_growth_rates.csv": "ee9a9a09ea005a639cb943791b250431b58f796b6757dbbdeb7d4b141197df21"
+  }
+}

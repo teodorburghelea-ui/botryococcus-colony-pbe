@@ -1,0 +1,19 @@
+{
+  "zhang_kojima_1998_fig3_digitized.csv": {
+    "source": "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Comparison_Literature/ComparisonWithLiterature_complete_package/ComparisonWithLiterature/data/zhang_kojima_1998_fig3_digitized.csv",
+    "sha256": "1244031f6eaebb883e4d409a9bc56701989c05d1cf4ecb8bd1f355fb4e5126e9",
+    "status": "SUPERSEDED 25 Sep 2026; not read by analysis.py. Kept unchanged for provenance. Contains three day-25 histograms (10 klx, V_L = 5/25/50 %) that do not exist in the source figure."
+  },
+  "zhang_kojima_1998_fig5_digitized.csv": {
+    "source": "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Comparison_Literature/ComparisonWithLiterature_complete_package/ComparisonWithLiterature/data/zhang_kojima_1998_fig5_digitized.csv",
+    "sha256": "350e1b0898c5e204ace583a66c876ad71164980dde0cdef0cf6f3392325befb4"
+  },
+  "zhang_kojima_1998_table1_transcribed.csv": {
+    "source": "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Comparison_Literature/ComparisonWithLiterature_complete_package/ComparisonWithLiterature/data/zhang_kojima_1998_table1_transcribed.csv",
+    "sha256": "40e7d3fb88afea3ffbf2d617d226a3f4a2cea33637fe2df5a0a77721ce4188d5"
+  },
+  "zhang_kojima_1998_fig3_redigitized.csv": {
+    "source": "data/redigitization_2026-09-25/zhang_kojima_1998_fig3_redigitized.csv (scripted marker extraction from the native 300-dpi scan of Zhang and Kojima 1998, p. 574; see that folder README). Primary Fig. 3 input from 25 Sep 2026.",
+    "sha256": "f8de78c0e169a7da07b12ac90446a814776b750448f39afdba51c800a9b83458"
+  }
+}

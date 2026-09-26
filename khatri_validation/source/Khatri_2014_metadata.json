@@ -1,0 +1,16 @@
+{
+  "title": "Hydrocarbon production in high density Botryococcus braunii race B continuous culture",
+  "authors": ["Waqas Khatri", "Robert Hendrix", "Tom Niehaus", "Joe Chappell", "Wayne R. Curtis"],
+  "journal": "Biotechnology and Bioengineering",
+  "year": 2014,
+  "volume": 111,
+  "issue": 3,
+  "pages": "493-503",
+  "doi": "10.1002/bit.25126",
+  "pubmed": "24122424",
+  "publisher_url": "https://doi.org/10.1002/bit.25126",
+  "source_status": "metadata_and_abstract_verified_full_text_unavailable",
+  "abstract_reported_colony_range_mm": [0.09, 0.343],
+  "abstract_reported_daily_replacement_percent": [5, 15],
+  "retrieved_on": "2026-09-15"
+}

@@ -1,0 +1,77 @@
+\section{Matched Zhang distribution-transfer analysis}
+\label{app:zhang-matched}
+
+\subsection{Source observations and declared information split}
+
+The reanalysis uses the Fig.~3 number-frequency histograms, Fig.~5 cubic-mean Feret diameters, and transcribed Table~1 dry biomass concentrations of Zhang and Kojima~\cite{ZhangKojima1998}. Fig.~3 was re-digitized on 25 September 2026 from the native 300-dpi scan of the source page. Each panel was calibrated separately from its four frame lines (the 50\% tick lies at the frame midpoint within 2~px). Markers were detected with shape templates (open circle, square and triangle; filled diamond) evaluated only in narrow columns around the 0.05-mm grid, and their heights were read at the fitted marker centre. Four markers hidden behind other markers were measured by local template fits. One value (3-klx, $V_L=100\%$, day 0, 0.20~mm), whose marker is completely hidden, was set to the identical value of the other three day-0 panels. Near-baseline values were measured relative to each series' own baseline marker. Every extracted value is plotted on the scan in the archived quality-control overlays. Reading precision is about $\pm1$ percentage point for visible markers and $\pm2$ points near the baseline.
+
+The source figure contains 25 histograms: days 0, 4 and 16 for the 3-klx preculture and days 0, 5 and 18 for the 10-klx preculture at $V_L=5$, 25, 50 and 100\%, plus day 25 for the 10-klx preculture at $V_L=100\%$ only. An earlier archived digitization also contained day-25 histograms at $V_L=5$, 25 and 50\%, which do not exist in the source, and was broadened and shifted by $+0.025$~mm; it is superseded and no longer used. Plotted histograms sum to 93.7--104.8\% (median 99.2\%) and are renormalized to 100\%. Markers are plotted at 0, 0.05, \dots, 0.55~mm. The source does not define class boundaries, so the primary analysis treats each marker as the representative diameter of a 0.05-mm class centred on it (class edges 0, 0.025, 0.075, \dots, 0.575~mm); a shift of every edge by $-0.011$~mm is a declared sensitivity scenario. The four $V_L$ values are source operating conditions, not independent biological replicates. The source reports microscopy of more than 100 colonies per histogram; individual diameters are not available.
+
+Figs.~3 and 5 report the same cultures. The cubic mean
+\[
+ D_{3,0}=\Bigl(\sum_in_id_i^3\Big/\sum_in_i\Bigr)^{1/3}
+\]
+of each re-digitized histogram reproduces the separately digitized Fig.~5 value of the same preculture, $V_L$ and day for all 25 runs (RMSE $0.0115$~mm, $r=0.996$; $0.0055$~mm after the $-0.011$~mm shift). The superseded digitization gave RMSE $0.046$~mm, which had earlier been misread as evidence that the two figures were separate datasets.
+
+The eight non-initial 3-klx histograms calibrate each model. With all coefficients frozen, the nine non-initial 10-klx histograms test transfer. Each trajectory starts from its own observed day-zero number histogram; no later observation enters initialization. Fig.~5 values are never fitted. They serve as a paired scalar check of the same runs, including days without a histogram (3~klx: days 8, 12 and 21; 10~klx: days 9, 13 and 25 at $V_L\neq100\%$).
+
+The prescribed light signal is Eq.~\eqref{eq:zhang-light}. Biomass is interpolated linearly between Table~1 measurements and extended using its last slope only for scalar observation times beyond that table. All Fig.~3 observations lie within its time range. These are conditional calculations using measured biomass, including interpolation between measured times; they do not forecast biomass or reactor light autonomously. The source periodically replaced half the liquid medium after filtration through glass beads. No additional colony-removal or size-selection law is inferred from that handling procedure here.
+
+\subsection{Common dynamics and matched rate hypotheses}
+
+Constant compactness gives $x\propto D^3$. The common material-growth closure is
+\[
+ G_x=3g_D\frac{I_{\mathrm{BC}}}{K_I+I_{\mathrm{BC}}}x,
+ \qquad g_D=0.055~\mathrm{d^{-1}},\quad K_I=0.70~\mathrm{V}.
+\]
+Thus the diameter growth coefficient is the fixed value used in the earlier Zhang baseline; the factor three converts diameter enlargement to material growth. It is an assumed effective colony-growth law, not inferred directly from biomass accumulation. The common size gate and mechanical rate are
+\[
+ S_D(D;D_c)=\frac{D^8}{D^8+D_c^8},\qquad
+ \beta_h=0.020S_D~\mathrm{d^{-1}}.
+\]
+The mechanical daughters have equal material. The biological rate is
+\[
+ \beta_b=bS_D\exp[\eta(1/2-a)],\qquad
+ a_{\mathrm{eq}}=\frac{I_{\mathrm{BC}}}{K_I+I_{\mathrm{BC}}}.
+\]
+The size-only model fixes $\eta=0$ and fits $(b,D_c)$. The instantaneous model sets $a=a_{\mathrm{eq}}$ and fits $(b,D_c,\eta)$. The finite-time model fits $(b,D_c,\eta,\tau)$ with $\dot a=(a_{\mathrm{eq}}-a)/\tau$; $\tau=0$ is implemented as the exact instantaneous limit. The same coefficients and gate structure are available to each fit, but coefficients are refitted independently. The finite-time primary initialization is $a(0)=1/2$, common to all histories; precursor irradiance in klx is not converted into a detector voltage or an invented physiological measurement. An alternative initialization at the day-zero equilibrium is refitted as a sensitivity.
+
+The initial state is homogeneous and inherited by every descendant, giving the exact marginal representation $n(x,a,t)=N(x,t)\delta[a-a(t)]$. This tests a delayed light response, not daughter-state resets or physiological heterogeneity. Positive $\eta$ reduces the event rate as $a$ increases; this light-response hypothesis is distinct from the increasing maturity gate in Eq.~\eqref{eq:biological-rate}. Neither identifies the unmeasured scalar state. The imposed weak mechanical rate is not separately identified from biological separation; for equal binary daughters, the two event operators differ only through their rates.
+
+Three biological daughter laws are evaluated without selecting among them using transfer errors: equal material binary partition; asymmetric fractions $(0.1,0.9)$; and a uniform distribution of complementary binary fractions $(z,1-z)$ for $0.1\leq z\leq0.5$, using nine-point Gauss--Legendre quadrature. Every event has expected descendant number two, conserves material, and keeps each descendant at or below its own parent. Aggregation, shell loss and colony mortality are zero in all matched variants.
+
+\subsection{Training, benchmarks and extraction sensitivity}
+
+The objective is the mean TV distance over the four training trajectories, with equal weight for their two post-initial histograms. Transfer scores give equal weight to each of the nine observed post-initial histograms of the excluded history. An additional observed-zero category retains predicted number above the largest class edge (0.575~mm). No predicted exterior probability is discarded or renormalized away. Archived binned Wasserstein distances use the class representatives, with 0.60~mm for overflow; these are coarse-category distances, not fully resolved tail distances. Supplied initial observations are excluded from every reported score.
+
+Bounds are $10^{-2.5}\leq b\leq1~\mathrm{d^{-1}}$, $0.035\leq D_c\leq0.50$~mm, $-3\leq\eta\leq3$, and $0\leq\tau\leq32$~d. Each model/law/scenario receives 512 scrambled-Sobol candidates (seed 20260915), followed by 128 training-only coordinate-poll evaluations. Search coordinates are normalized $\log_{10}b$, $\log D_c$, $\eta$, and $\log(1+\tau/0.25)$. The initial normalized poll step is 0.125 and halves after an unsuccessful poll. Neutral and instantaneous candidates are included. For each richer model, the last global candidate is the previously fitted simpler model embedded at its exact nested limit; this consumes one of the 512 evaluations and uses training information only. Search prefixes and all candidate losses are archived. Equal effort does not equate model complexity or certify a global optimum.
+
+Persistence retains each observed starting number histogram. The growth-only benchmark transports the initial piecewise-uniform number density analytically: diameter is multiplied by
+\[
+ \exp\left[\int_0^t g_D\frac{I_{\mathrm{BC}}(s)}{K_I+I_{\mathrm{BC}}(s)}\,\dd s\right],
+\]
+and bin probabilities are calculated from exact interval overlaps. Neither benchmark fits a coefficient. Numerical quadrature of the scalar growth integral is split at the biomass-interpolation knots. A multinomial counting-noise floor is computed separately: for each re-digitized histogram, 10{,}000 samples of $n=100$ (and $n=200$) colonies are drawn and their TV from the histogram recorded. With $n=100$ the expected TV averages $0.047$ over the nine transfer histograms (range $0.013$--$0.097$); with $n=200$ it is $0.033$.
+
+Six extraction alternatives perturb every initial and later histogram, or the class convention, before refitting: move 10\% of each bin probability to its left neighbour (a lower-boundary/peak-location shift); move 10\% to its right neighbour (an upper-boundary/peak-location shift); move 10\% to each neighbour (a bin-width/broadening perturbation); or multiply probabilities by
+\[
+ \exp[\pm0.25(D/D_t-1)],\qquad D_t=0.30~\mathrm{mm},
+\]
+and renormalize (opposite tail-weight perturbations); or shift every class edge by $-0.011$~mm (class-convention uncertainty). Neighbour transfers retain mass at observed boundaries. Together these deterministic scenarios span class-boundary placement, apparent peak location/width and relative tail weight. They are declared stress tests, not empirical error bounds, random biological replicates or confidence intervals. All nine model/law combinations receive the same full search and refinement budget in every scenario. Additional separately refitted closure scenarios halve or multiply the prescribed growth coefficient by 1.5, or initialize $a$ at its day-zero equilibrium. No transfer score selects a scenario or daughter law.
+
+\subsection{Numerical implementation and verification}
+
+The solver advances integrated colony numbers on material pivots $x_i\propto D_i^3$. Eight sub-bins lie within each observed class; the first is geometrically subdivided from $10^{-4}$~mm to its upper edge, and later classes between their exact edges. A geometric extension reaches at least 1.2~mm, giving 161 pivots in the primary grid. Initial numbers are apportioned by diameter interval width within each class, reproducing the observed class probabilities exactly. Conservative linear daughter deposition preserves both assigned number and material. Events whose smallest daughter would fall below the lowest pivot are disabled and their occupied fraction is diagnosed.
+
+Adjacent-pivot growth transport has discrete first-moment derivative $G_x/x$ times total material, except at the closed upper pivot; upper occupancy is recorded. SSPRK2 updates use a 0.05-d timestep with an explicit outgoing-rate positivity check and no negative-value clipping. Finite-state relaxation over a step uses the midpoint equilibrium and exponential relaxation, with state values at both rate-evaluation stages. Numerical tests check event number/material/support, the observation map, neutral and instantaneous limits, positivity and total material against independently integrated growth. An independent matrix-exponential no-event transport calculation is compared with the analytical translated-bin solution under refinement.
+
+Frozen fitted-parameter checks halve the timestep, double and quadruple the spatial subdivisions with reduced timesteps, and expand both ends of the computational domain. They measure prediction sensitivity, not statistical parameter uncertainty. Numerical differences and any ranking changes are reported with the results; fitted coefficients remain conditional on the discretization and finite search.
+
+\input{acceptance_revision/matched_ablation/zhang_revision/results/parameter_table.tex}
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\linewidth]{acceptance_revision/matched_ablation/zhang_revision/results/reconstruction_sensitivity.pdf}
+ \caption{Paired Zhang transfer-error contrasts after separately refitting every model and daughter law under each declared scenario. Negative differences favour the finite-time variant over the instantaneous variant. Histogram perturbations test extraction assumptions; growth and initial-state changes test closures. These are deterministic sensitivity scenarios, not confidence intervals or independent experiments..}
+ \label{fig:zhang-reconstruction-sensitivity}
+\end{figure}
+

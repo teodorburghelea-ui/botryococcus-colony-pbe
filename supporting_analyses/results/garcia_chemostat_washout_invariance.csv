@@ -1,0 +1,3 @@
+comparison,maximum_normalized_distribution_total_variation,absolute_volume_weighted_diameter_difference_um,relative_volume_weighted_diameter_difference
+uniform_washout_0.10_vs_0.20_d_1,7.448953327939994e-17,5.684341886080802e-14,2.0184091557769867e-16
+uniform_washout_0.10_vs_0.30_d_1,5.3665403434927556e-17,5.684341886080802e-14,2.0184091557769867e-16

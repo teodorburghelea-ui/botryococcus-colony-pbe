@@ -1,0 +1,1 @@
+The Khatri 2014 Figure 6 digitization is stored in `khatri_2014_fig6_digitized.csv`. The four bar endpoints were read from the original figure, with an estimated +/-0.002 mm pixel/digitization uncertainty for each endpoint. The plotted spread widths are retained in a separate column and should not be conflated with endpoint-reading uncertainty.

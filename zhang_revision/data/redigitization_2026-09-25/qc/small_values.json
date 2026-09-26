@@ -1,0 +1,134 @@
+{
+ "aA_4_0.15": {
+  "value": 1.0,
+  "score": 0.861,
+  "baseline_offset": -0.3,
+  "previous": 0.0
+ },
+ "aA_16_0.15": {
+  "value": 1.0,
+  "score": 0.865,
+  "baseline_offset": 1.2,
+  "previous": 0.0
+ },
+ "aB_4_0.30": {
+  "value": 0.8,
+  "score": 0.877,
+  "baseline_offset": 0.0,
+  "previous": 0.0
+ },
+ "aB_16_0.00": {
+  "value": 2.2,
+  "score": 0.913,
+  "baseline_offset": -0.4,
+  "previous": 0.0
+ },
+ "aB_16_0.25": {
+  "value": 2.4,
+  "score": 0.933,
+  "baseline_offset": -0.4,
+  "previous": 0.0
+ },
+ "aC_4_0.25": {
+  "value": 2.0,
+  "score": 0.897,
+  "baseline_offset": -0.3,
+  "previous": 0.0
+ },
+ "aC_4_0.30": {
+  "value": 1.7,
+  "score": 0.897,
+  "baseline_offset": -0.3,
+  "previous": 0.0
+ },
+ "aC_16_0.05": {
+  "value": 2.374064837905237,
+  "score": 0.779,
+  "baseline_offset": 1.2,
+  "previous": 2.374064837905237
+ },
+ "aD_4_0.30": {
+  "value": 0.8,
+  "score": 0.913,
+  "baseline_offset": 0.3,
+  "previous": 0.0
+ },
+ "aD_16_0.30": {
+  "value": 2.0,
+  "score": 0.87,
+  "baseline_offset": 1.1,
+  "previous": 3.475
+ },
+ "bA_18_0.10": {
+  "value": 0.7,
+  "score": 0.875,
+  "baseline_offset": 1.6,
+  "previous": 2.775
+ },
+ "bB_5_0.00": {
+  "value": 2.0,
+  "score": 0.98,
+  "baseline_offset": -1.8,
+  "previous": 0.0
+ },
+ "bB_5_0.20": {
+  "value": 3.0,
+  "score": 0.897,
+  "baseline_offset": -1.8,
+  "previous": 0.0
+ },
+ "bB_5_0.25": {
+  "value": 2.0,
+  "score": 0.992,
+  "baseline_offset": -1.8,
+  "previous": 0.0
+ },
+ "bB_5_0.30": {
+  "value": 2.0,
+  "score": 0.976,
+  "baseline_offset": -1.8,
+  "previous": 0.0
+ },
+ "bB_5_0.35": {
+  "value": 2.0,
+  "score": 0.909,
+  "baseline_offset": -1.8,
+  "previous": 0.0
+ },
+ "bB_18_0.10": {
+  "value": 4.873134328358209,
+  "score": 0.846,
+  "baseline_offset": 1.7,
+  "previous": 4.873134328358209
+ },
+ "bC_5_0.25": {
+  "value": 2.7,
+  "score": 0.944,
+  "baseline_offset": -0.2,
+  "previous": 2.6
+ },
+ "bC_5_0.30": {
+  "value": 2.5,
+  "score": 0.933,
+  "baseline_offset": -0.2,
+  "previous": 0.0
+ },
+ "bD_0_0.25": {
+  "value": 3.9,
+  "score": 0.929,
+  "baseline_offset": 0.2,
+  "previous": 0.0
+ },
+ "bD_18_0.05": {
+  "value": 6.4,
+  "score": 1.0,
+  "baseline_offset": 0.2,
+  "previous": 1.5712871287128714
+ },
+ "bD_25_0.25": {
+  "value": 3.7,
+  "score": 1.0,
+  "baseline_offset": 0.2,
+  "previous": 4.0
+ }
+}

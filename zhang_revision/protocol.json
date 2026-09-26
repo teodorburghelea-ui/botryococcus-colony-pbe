@@ -1,0 +1,71 @@
+{
+  "status": "Revision 2026-09-25: rerun of the 2026-09-15 protocol on the re-digitized Fig. 3 (data/zhang_kojima_1998_fig3_redigitized.csv). Models, laws, bounds, budgets, seeds and scoring are unchanged; only the input histograms, the class convention and the held-out set (genuine histograms only) differ. Fixed before any new fit was run.",
+  "training": "Eight post-initial Fig. 3 histograms from 3-klx preculture (days 4 and 16 at V_L = 5/25/50/100 %), equal mean TV weight per histogram.",
+  "test": "Nine post-initial Fig. 3 histograms from 10-klx preculture (days 5 and 18 at all four V_L; day 25 at V_L = 100 % only, the only day-25 series in the source). No model, daughter law, hyperparameter or starting state selected using these errors.",
+  "scalar_check": "Fig. 5 post-initial D30 of the same runs (the re-digitization shows Figs. 3 and 5 report the same cultures), same histogram initialization and frozen parameters; paired scalar validation including days without histograms (3 klx: 8, 12, 21; 10 klx: 9, 13, 25). Not a fit objective.",
+  "models": [
+    "size_only",
+    "instantaneous",
+    "finite_time"
+  ],
+  "laws": [
+    "equal_binary",
+    "asymmetric_binary",
+    "broad_binary"
+  ],
+  "common_growth": "Gx=3*0.055*I/(0.70+I)*x; I in original detector volts, prescribed from biomass.",
+  "biological_rate": "b*S(D;Dc)*exp[eta*(0.5-a)]; size_only eta=0; S=D^8/(D^8+Dc^8).",
+  "mechanical_rate": "0.020*S(D;Dc), equal-material binary, shared gate within each fit.",
+  "state_equilibrium": "I/(I+0.70)",
+  "initial_state": 0.5,
+  "state_inheritance": "Homogeneous state inherited by all descendants; exact marginal reduction, no state reset.",
+  "bounds": {
+    "b_d_inv": [
+      0.0031622776601683794,
+      1.0
+    ],
+    "Dc_mm": [
+      0.035,
+      0.5
+    ],
+    "eta": [
+      -3.0,
+      3.0
+    ],
+    "tau_d": [
+      0.0,
+      32.0
+    ]
+  },
+  "global_candidates": 512,
+  "nested_seed": "For instantaneous and finite_time, the final global candidate is the same-scenario/law fitted simpler model embedded with eta=0 or tau=0, respectively. It uses training information only and counts within the 512 budget.",
+  "local_candidates": 128,
+  "sobol_seed": 20260915,
+  "training_refinement": "Batched coordinate polls in normalized log b, log Dc, eta and log(1+tau/0.25); start from best global candidate; initial step .125, halve after unsuccessful poll. Exactly 128 evaluations, all training-only.",
+  "sensitivity_budget": "Same 512 global plus 128 local per model and law as primary.",
+  "grid": "Eight subdivisions per observed class; first class geometric from 0.0001 mm to its upper edge; other classes log-spaced within exact class edges; geometric upper extension to at least 1.2 mm.",
+  "time_step_d": 0.05,
+  "initial_within_bin": "Uniform number density in diameter, exactly reaggregates to each observed initial histogram; no smoothing across observed bins.",
+  "exterior_probability": "Retained in a scored overflow category, never renormalized away.",
+  "reconstruction_scenarios": {
+    "primary": "Re-digitized raw marker frequencies, renormalized to 100 % per histogram.",
+    "shift_left": "Move 10% of every bin probability to its left neighbor, retain mass at lower boundary; every initial and later histogram.",
+    "shift_right": "Move 10% to the right neighbor, retain mass at upper observed boundary; every initial and later histogram.",
+    "broaden": "Move 10% to each neighbor, reflecting at observed boundaries; every initial and later histogram.",
+    "tail_up": "Multiply bin probabilities by exp(0.25*(D/0.30-1)) and renormalize; every initial and later histogram.",
+    "tail_down": "Multiply bin probabilities by exp(-0.25*(D/0.30-1)) and renormalize; every initial and later histogram.",
+    "bins_minus_0p011": "Primary frequencies with every class edge shifted by -0.011 mm."
+  },
+  "sensitivity_scope": "Declared stress tests of extraction/shape and class-convention uncertainty, not estimated digitization errors, sampling draws or confidence intervals.",
+  "closure_scenarios": [
+    "growth_half",
+    "growth_one_and_half",
+    "initial_equilibrium"
+  ],
+  "numerical_checks": "Independent no-event analytic growth transport, event number/material/support, exact initialization, neutral/instantaneous limits, frozen-fit dt/2, double and quadruple grid, expanded domain; primary finest-grid refit if numerical error prevents interpretation.",
+  "additional_benchmarks": [
+    "initial_distribution_persistence",
+    "analytic_growth_only"
+  ],
+  "bin_convention": "Source classes undefined. Primary: marker positions 0, 0.05, ..., 0.55 mm are class representatives; class edges 0, 0.025, 0.075, ..., 0.575 mm. Sensitivity 'bins_minus_0p011': all edges shifted by -0.011 mm (best common shift reproducing Fig. 5 D30)."
+}

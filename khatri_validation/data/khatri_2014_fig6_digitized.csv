@@ -1,0 +1,5 @@
+dilution_label_percent,daily_replacement_fraction,continuous_equivalent_d_per_day,colony_diameter_mm,colony_diameter_sd_mm,digitization_uncertainty_mm,source_figure,source_page,pixel_x0,pixel_x_axis05,pixel_x_bar_end,notes
+5.0,0.05,0.05129329438855058,0.093,0.049,0.002,Figure 6,499,250,950,380,"Horizontal bar endpoint digitized from 300 dpi rendering; spread is the plotted source error bar; digitization uncertainty is +/-0.002 mm"
+7.5,0.075,0.07796154146908575,0.179,0.111,0.002,Figure 6,499,250,950,501,"Horizontal bar endpoint digitized from 300 dpi rendering; spread is the plotted source error bar; digitization uncertainty is +/-0.002 mm"
+10.0,0.10,0.1053605156578263,0.224,0.087,0.002,Figure 6,499,250,950,564,"Horizontal bar endpoint digitized from 300 dpi rendering; spread is the plotted source error bar; digitization uncertainty is +/-0.002 mm"
+12.5,0.125,0.13353139262452263,0.343,0.097,0.002,Figure 6,499,250,950,730,"Horizontal bar endpoint digitized from 300 dpi rendering; spread is the plotted source error bar; digitization uncertainty is +/-0.002 mm"

@@ -1,0 +1,3 @@
+model,distribution_rmse_volume_percent,total_variation_distance,wasserstein_distance_mm,n_prominent_modes,small_mode_peak_um,large_mode_peak_um,small_volume_fraction,large_residual_fraction,topology_pass,material_relative_drift,minimum_cell_population
+one_state_collapsed_limit,1.406130491589206,0.24618816000755284,0.10448392442317873,1,nan,320.8762616645296,0.17251769033189768,0.6387397999466546,False,0.0,2.640320076618137e-09
+structured_memory_biological_kernel,0.7110570578042693,0.11420886609135068,0.04860485982425265,2,78.53002545960211,278.7452042603958,0.3777474904569835,0.43641359906168536,True,0.0,0.0

@@ -1,0 +1,24 @@
+{
+  "source": "Khatri et al. 2014 Figure 6",
+  "frozen_parameters": "Zhang primary asymmetric-binary instantaneous closure",
+  "reference_initialization": "Zhang 3-klx V_L=100% day-zero histogram; diagnostic only",
+  "prediction_definition": "uniform semi-continuous withdrawal with no D-dependent rate or inlet-state closure",
+  "reference_predicted_D3_mm": 0.20143503943516178,
+  "observed_range_mm": [
+    0.093,
+    0.343
+  ],
+  "digitization_uncertainty_mm_each": 0.002,
+  "diameter_weighting_convention": "not documented sufficiently to establish a strict correspondence with model D3",
+  "rmse_mm": 0.09056945439382318,
+  "mae_mm": 0.07375000000000001,
+  "observed_diameter_slope_mm_per_fraction": 3.1799999999999997,
+  "observed_diameter_fraction_correlation": 0.985549390884011,
+  "closures_tested": [
+    "asymmetric_binary_instantaneous",
+    "equal_binary_instantaneous",
+    "broad_binary_instantaneous"
+  ],
+  "score_interpretation": "RMSE and MAE are descriptive scale diagnostics only, not like-for-like validation scores",
+  "conclusion": "Frozen Zhang closure cannot reproduce the dilution-dependent colony-size increase under its stated uniform-withdrawal assumptions; this is a qualitative structural boundary test. Adding a D-dependent selection, breakup, retention, or inlet-distribution mechanism would require new calibration or independent data."
+}

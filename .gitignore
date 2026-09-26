@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.npz
+*.orig
+# Copyrighted source material must never be committed:
+*.jpg
+khatri_validation/source/*.pdf
+khatri_validation/source/*.png

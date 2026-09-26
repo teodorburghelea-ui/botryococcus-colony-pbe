@@ -1,0 +1,7 @@
+model,temperature_C,light_umol_m2_s,dilution_d_1,predicted_volume_weighted_diameter_um,state_equilibrium,observed_volume_weighted_diameter_um,observation_id
+environmental_state_closure,22.5,1800.0,0.1,124.2327640436896,-0.1884783587123276,103.19,table2_experiment_5
+environmental_state_closure,22.5,1800.0,0.2,175.12255900866992,0.15485077189800495,,
+environmental_state_closure,22.5,1800.0,0.3,246.85847497492637,0.49817990250833744,283.21,table2_experiment_7
+uniform_washout_null,22.5,1800.0,0.1,183.92592309146127,0.20389779055662371,103.19,table2_experiment_5
+uniform_washout_null,22.5,1800.0,0.2,183.92592309146127,0.20389779055662371,,
+uniform_washout_null,22.5,1800.0,0.3,183.92592309146127,0.20389779055662371,283.21,table2_experiment_7

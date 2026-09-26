@@ -1,0 +1,5 @@
+dilution_label_percent,daily_replacement_fraction,observed_colony_diameter_mm,digitization_uncertainty_mm,frozen_prediction_mm,residual_mm
+5.0,0.05,0.093,0.002,0.201435039,0.108435039
+7.5,0.075,0.179,0.002,0.201435039,0.022435039
+10.0,0.10,0.224,0.002,0.201435039,-0.022564961
+12.5,0.125,0.343,0.002,0.201435039,-0.141564961

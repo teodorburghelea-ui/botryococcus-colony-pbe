@@ -1,0 +1,36 @@
+{
+  "scenario": "shift_right",
+  "law": "asymmetric_binary",
+  "model": "finite_time",
+  "parameters": [
+    0.3823940233235491,
+    0.11578106815626979,
+    3.0,
+    0.0
+  ],
+  "training_TV": 0.24489408378327138,
+  "test_TV": 0.3652111418342918,
+  "seconds": 59.13455730199348,
+  "audit": {
+    "number": 2.0,
+    "material_residual": 2.5168823478809853e-16,
+    "number_residual": 2.220446049250313e-16,
+    "above_parent": 0
+  },
+  "diagnostics": [
+    {
+      "preculture": 3,
+      "min_population": 0.0,
+      "max_upper_number_fraction": 2.3072022543364703e-10,
+      "max_disabled_bio_number_fraction": 6.678561973852437e-38,
+      "max_relative_material_error": 2.215903108115924e-05
+    },
+    {
+      "preculture": 10,
+      "min_population": 0.0,
+      "max_upper_number_fraction": 6.848497918164424e-17,
+      "max_disabled_bio_number_fraction": 3.1497443652754357e-37,
+      "max_relative_material_error": 1.9126406958114295e-05
+    }
+  ]
+}

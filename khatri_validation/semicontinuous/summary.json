@@ -1,0 +1,83 @@
+{
+  "observed_ratio": 3.688172043010753,
+  "flat_line_at_observed_mean_rmse_mm": 0.09018695859158353,
+  "primary_size_only": {
+    "rmse": [
+      0.135,
+      0.18
+    ],
+    "ratio": [
+      1.46,
+      1.83
+    ],
+    "trend_share": [
+      0.29,
+      0.46
+    ]
+  },
+  "primary_instantaneous": {
+    "rmse": [
+      0.104,
+      0.113
+    ],
+    "ratio": [
+      2.16,
+      2.66
+    ],
+    "trend_share": [
+      0.59,
+      0.75
+    ]
+  },
+  "photoperiod_cycle_size_only": {
+    "rmse": [
+      0.135,
+      0.18
+    ],
+    "ratio": [
+      1.46,
+      1.83
+    ],
+    "trend_share": [
+      0.29,
+      0.46
+    ]
+  },
+  "photoperiod_cycle_instantaneous": {
+    "rmse": [
+      0.161,
+      0.174
+    ],
+    "ratio": [
+      1.21,
+      1.24
+    ],
+    "trend_share": [
+      0.14,
+      0.17
+    ]
+  },
+  "all_daily_mean_size_only": {
+    "ratio": [
+      1.11,
+      1.85
+    ],
+    "all_increasing": true,
+    "D125": [
+      0.054,
+      0.121
+    ]
+  },
+  "all_daily_mean_instantaneous": {
+    "ratio": [
+      1.38,
+      3.12
+    ],
+    "all_increasing": true,
+    "D125": [
+      0.113,
+      0.233
+    ]
+  },
+  "all_runs_increasing": true
+}

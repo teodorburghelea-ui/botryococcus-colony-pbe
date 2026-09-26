@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this archive."
+title: "Reproducibility archive: population-balance tests of colony growth, separation and light access in Botryococcus braunii"
+type: software
+authors:
+  - family-names: Burghelea
+    given-names: T.
+    affiliation: "Laboratoire de Thermique et Énergie de Nantes (LTeN), UMR 6607, Nantes Université, CNRS, Nantes, France"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add ORCID
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-26"
+keywords:
+  - Botryococcus braunii
+  - population balance
+  - colony size distribution
+  - photobioreactor

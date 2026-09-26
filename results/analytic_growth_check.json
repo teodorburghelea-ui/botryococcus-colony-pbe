@@ -1,0 +1,22 @@
+[
+  {
+    "subdivisions": 2,
+    "TV_vs_analytic": 0.03432182531792947,
+    "material_relative_error": -7.136458443079974e-07
+  },
+  {
+    "subdivisions": 4,
+    "TV_vs_analytic": 0.019380908638075595,
+    "material_relative_error": -7.13645844530042e-07
+  },
+  {
+    "subdivisions": 8,
+    "TV_vs_analytic": 0.010929320753828329,
+    "material_relative_error": -7.136458447520866e-07
+  },
+  {
+    "subdivisions": 16,
+    "TV_vs_analytic": 0.005893680046060663,
+    "material_relative_error": -7.13645844530042e-07
+  }
+]

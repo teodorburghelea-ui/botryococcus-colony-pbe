@@ -1,0 +1,71 @@
+{
+  "status": "Retrospective comparison; existing surrogate targets already inspected. Fixed before new model searches.",
+  "models": [
+    "size_only",
+    "instantaneous",
+    "finite_time"
+  ],
+  "daughter_laws": [
+    "retained_satellites",
+    "asymmetric_binary",
+    "broad_binary"
+  ],
+  "conditions": {
+    "LL": 50.0,
+    "ML": 150.0,
+    "HL": 450.0
+  },
+  "end_time_d": 20.0,
+  "growth_material_rate_d_inv": 0.07,
+  "growth_sensitivity_d_inv": [
+    0.0,
+    0.06,
+    0.08
+  ],
+  "initial_state": 0.5,
+  "state_equilibrium": "I / (I + 150)",
+  "state_inheritance": "Both retained and new branches inherit parent state, to isolate relaxation from resets. A common deterministic initial state makes the structured marginal reduction exact.",
+  "size_gate_center_mm": 0.25,
+  "size_gate_width_mm": 0.035,
+  "mechanical_rate_d_inv": 0.02,
+  "beta_bounds_d_inv": [
+    0.0031622776601683794,
+    1.0
+  ],
+  "eta_bounds": [
+    -8.0,
+    8.0
+  ],
+  "tau_bounds_d": [
+    0.25,
+    32.0
+  ],
+  "satellite_material_fraction": 0.1,
+  "satellite_diameter_ratio_median": 0.18,
+  "satellite_log_width": 0.28,
+  "satellite_ratio_support": [
+    0.08,
+    0.45
+  ],
+  "satellite_quadrature_points": 17,
+  "binary_fraction": 0.1,
+  "broad_binary_fraction_support": [
+    0.1,
+    0.5
+  ],
+  "broad_binary_quadrature_points": 9,
+  "primary_candidates_per_model_and_law": 512,
+  "sensitivity_candidates_per_model_and_law": 256,
+  "sobol_seed": 20260914,
+  "fitting_objective": "Mean of condition-wise mean replicate total-variation distances; omit the held-out light condition. No pooling of replicates before scoring. Each daughter law is evaluated independently, with no law selection by held-out error.",
+  "fit_folds": [
+    "hold_LL",
+    "hold_ML",
+    "hold_HL"
+  ],
+  "time_step_d": 0.1,
+  "subdivisions_per_source_bin": 4,
+  "extra_source_bins_each_side": 8,
+  "numerical_checks": "Frozen fitted parameters, dt/2, grid x2 and x4, domain expansion; exact material moments, positivity, support, no-event analytic growth and instantaneous limits.",
+  "input_revision": "25 Sep 2026: data/source_distributions.csv replaced by point re-extraction of van den Berg et al. (2019) Fig. 2 (data/vdb_reextraction_2026-09-25). The earlier smooth log-normal/mixture reconstruction is kept as data/source_distributions_archived_smooth_reconstruction.csv and its outputs in results_archive_2026-09-22. All other protocol settings unchanged."
+}

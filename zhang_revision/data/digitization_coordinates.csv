@@ -1,0 +1,6 @@
+figure,panel,page,axis_x,axis_y,x_min,x_max,y_min,y_max,coordinate_system,source_file,notes
+3,a,574,linear,linear,0.0,0.60,0.0,100.0,plot-axis calibrated from tick marks,data/zhang_kojima_1998_fig3_digitized.csv,"12 bins centred at 0.025--0.575 mm; approximate frequencies read from the four VL curves"
+3,b,574,linear,linear,0.0,0.60,0.0,100.0,plot-axis calibrated from tick marks,data/zhang_kojima_1998_fig3_digitized.csv,"12 bins centred at 0.025--0.575 mm; approximate frequencies read from the four VL curves"
+5,a,575,linear,linear,0.0,25.0,0.0,0.25,plot-axis calibrated from tick marks,data/zhang_kojima_1998_fig5_digitized.csv,"Six time points per VL curve; scalar case is not paired to a Fig. 3 day-zero histogram"
+5,b,575,linear,linear,0.0,25.0,0.0,0.25,plot-axis calibrated from tick marks,data/zhang_kojima_1998_fig5_digitized.csv,"Six time points per VL curve; scalar case is not paired to a Fig. 3 day-zero histogram"
+6,main panel,575,linear,linear,0.0,4.0,0.0,0.30,plot-axis calibrated from tick marks,legacy Fig. 6 archive,"Point values are pooled decline-period diagnostics and are not used in the matched Fig. 3 fit"

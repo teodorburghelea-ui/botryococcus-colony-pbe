@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering\small
+\caption{Zhang matched distribution comparison. Training uses the eight post-initial 3-klx Fig.~3 histograms; transfer uses the nine post-initial 10-klx histograms present in the source (days 5 and 18 at all four $V_L$, day 25 at $V_L=100\%$), with frozen coefficients. TV columns report mean number-distribution TV on the re-digitized histograms. The last column is the RMSE of the predicted cubic-mean diameter against the paired Fig.~5 values of the same 10-klx runs (days 5--25). Every fitted variant has biological and mechanical separation, common growth and observations. Persistence and analytical growth-only predictions have no fitted coefficients.}
+\label{tab:zhang-matched}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrr}
+\toprule
+Daughter law & Response & Train.\ TV & Transfer TV & $D_{3,0}$ RMSE (mm) \\
+\midrule
+--- & Persistence & 0.502 & 0.553 & 0.064 \\
+--- & Growth only & 0.623 & 0.535 & 0.077 \\
+\midrule
+Equal binary & Size only & 0.309 & 0.461 & 0.068 \\
+ & Instantaneous & 0.194 & 0.373 & 0.052 \\
+ & Finite time & 0.194 & 0.373 & 0.052 \\
+\midrule
+Asymmetric binary & Size only & 0.367 & 0.443 & 0.057 \\
+ & Instantaneous & 0.275 & 0.397 & 0.051 \\
+ & Finite time & 0.275 & 0.397 & 0.051 \\
+\midrule
+Broad binary & Size only & 0.330 & 0.438 & 0.061 \\
+ & Instantaneous & 0.214 & 0.366 & 0.052 \\
+ & Finite time & 0.213 & 0.374 & 0.052 \\
+\bottomrule
+\end{tabular}
+\end{table}

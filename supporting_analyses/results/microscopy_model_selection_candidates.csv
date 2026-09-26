@@ -1,0 +1,13 @@
+candidate_id,kernel,kernel_label,shell_alternative,shell_loss_fraction_protocol,reset_rule,new_branch_initial_state_protocol,rate_fitted_from_microscopy,interpretation
+E0D,equal_binary,Equal binary,no_resolved_shell,0.0,deep_reset,0.15,no,Structural candidate only; numerical contrast values are not microscopy fits.
+E0P,equal_binary,Equal binary,no_resolved_shell,0.0,partial_reset,0.55,no,Structural candidate only; numerical contrast values are not microscopy fits.
+ESD,equal_binary,Equal binary,released_shell,0.12,deep_reset,0.15,no,Structural candidate only; numerical contrast values are not microscopy fits.
+ESP,equal_binary,Equal binary,released_shell,0.12,partial_reset,0.55,no,Structural candidate only; numerical contrast values are not microscopy fits.
+B0D,broad_binary,Broad binary,no_resolved_shell,0.0,deep_reset,0.15,no,Structural candidate only; numerical contrast values are not microscopy fits.
+B0P,broad_binary,Broad binary,no_resolved_shell,0.0,partial_reset,0.55,no,Structural candidate only; numerical contrast values are not microscopy fits.
+BSD,broad_binary,Broad binary,released_shell,0.12,deep_reset,0.15,no,Structural candidate only; numerical contrast values are not microscopy fits.
+BSP,broad_binary,Broad binary,released_shell,0.12,partial_reset,0.55,no,Structural candidate only; numerical contrast values are not microscopy fits.
+R0D,retained_branch_satellites,Retained branch + satellites,no_resolved_shell,0.0,deep_reset,0.15,no,Structural candidate only; numerical contrast values are not microscopy fits.
+R0P,retained_branch_satellites,Retained branch + satellites,no_resolved_shell,0.0,partial_reset,0.55,no,Structural candidate only; numerical contrast values are not microscopy fits.
+RSD,retained_branch_satellites,Retained branch + satellites,released_shell,0.12,deep_reset,0.15,no,Structural candidate only; numerical contrast values are not microscopy fits.
+RSP,retained_branch_satellites,Retained branch + satellites,released_shell,0.12,partial_reset,0.55,no,Structural candidate only; numerical contrast values are not microscopy fits.

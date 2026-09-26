@@ -1,0 +1,106 @@
+test_common_observation_and_initialization (__main__.OperatorChecks.test_common_observation_and_initialization) ... ok
+test_conservation_support_and_counts (__main__.OperatorChecks.test_conservation_support_and_counts) ... ok
+test_instantaneous_and_neutral_response_limits (__main__.OperatorChecks.test_instantaneous_and_neutral_response_limits) ... ok
+test_no_event_growth_against_analytic_transport (__main__.OperatorChecks.test_no_event_growth_against_analytic_transport) ... ok
+test_nonzero_biology_in_all_models (__main__.OperatorChecks.test_nonzero_biology_in_all_models) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 7.366s
+
+OK
+Running primary: law=retained_satellites, g=0.07, 512 candidates/model
+  size_only/LL: 0.169; size_only/ML: 0.220; size_only/HL: 0.261; instantaneous/LL: 0.147; instantaneous/ML: 0.222; instantaneous/HL: 0.243; finite_time/LL: 0.185; finite_time/ML: 0.225; finite_time/HL: 0.243
+Running primary: law=asymmetric_binary, g=0.07, 512 candidates/model
+  size_only/LL: 0.268; size_only/ML: 0.115; size_only/HL: 0.144; instantaneous/LL: 0.333; instantaneous/ML: 0.112; instantaneous/HL: 0.162; finite_time/LL: 0.327; finite_time/ML: 0.112; finite_time/HL: 0.212
+Running primary: law=broad_binary, g=0.07, 512 candidates/model
+  size_only/LL: 0.287; size_only/ML: 0.124; size_only/HL: 0.107; instantaneous/LL: 0.290; instantaneous/ML: 0.124; instantaneous/HL: 0.118; finite_time/LL: 0.289; finite_time/ML: 0.124; finite_time/HL: 0.118
+Running growth_sensitivity: law=retained_satellites, g=0.0, 256 candidates/model
+  size_only/LL: 0.236; size_only/ML: 0.085; size_only/HL: 0.144; instantaneous/LL: 0.224; instantaneous/ML: 0.092; instantaneous/HL: 0.139; finite_time/LL: 0.226; finite_time/ML: 0.095; finite_time/HL: 0.141
+Running growth_sensitivity: law=asymmetric_binary, g=0.0, 256 candidates/model
+  size_only/LL: 0.238; size_only/ML: 0.083; size_only/HL: 0.149; instantaneous/LL: 0.273; instantaneous/ML: 0.083; instantaneous/HL: 0.242; finite_time/LL: 0.266; finite_time/ML: 0.083; finite_time/HL: 0.215
+Running growth_sensitivity: law=broad_binary, g=0.0, 256 candidates/model
+  size_only/LL: 0.240; size_only/ML: 0.081; size_only/HL: 0.144; instantaneous/LL: 0.272; instantaneous/ML: 0.081; instantaneous/HL: 0.213; finite_time/LL: 0.272; finite_time/ML: 0.081; finite_time/HL: 0.208
+Running growth_sensitivity: law=retained_satellites, g=0.06, 256 candidates/model
+  size_only/LL: 0.189; size_only/ML: 0.205; size_only/HL: 0.246; instantaneous/LL: 0.179; instantaneous/ML: 0.206; instantaneous/HL: 0.215; finite_time/LL: 0.194; finite_time/ML: 0.206; finite_time/HL: 0.215
+Running growth_sensitivity: law=asymmetric_binary, g=0.06, 256 candidates/model
+  size_only/LL: 0.264; size_only/ML: 0.116; size_only/HL: 0.141; instantaneous/LL: 0.293; instantaneous/ML: 0.118; instantaneous/HL: 0.208; finite_time/LL: 0.323; finite_time/ML: 0.118; finite_time/HL: 0.208
+Running growth_sensitivity: law=broad_binary, g=0.06, 256 candidates/model
+  size_only/LL: 0.279; size_only/ML: 0.119; size_only/HL: 0.107; instantaneous/LL: 0.284; instantaneous/ML: 0.115; instantaneous/HL: 0.270; finite_time/LL: 0.283; finite_time/ML: 0.115; finite_time/HL: 0.188
+Running growth_sensitivity: law=retained_satellites, g=0.08, 256 candidates/model
+  size_only/LL: 0.165; size_only/ML: 0.232; size_only/HL: 0.278; instantaneous/LL: 0.175; instantaneous/ML: 0.233; instantaneous/HL: 0.258; finite_time/LL: 0.168; finite_time/ML: 0.236; finite_time/HL: 0.258
+Running growth_sensitivity: law=asymmetric_binary, g=0.08, 256 candidates/model
+  size_only/LL: 0.273; size_only/ML: 0.115; size_only/HL: 0.146; instantaneous/LL: 0.345; instantaneous/ML: 0.138; instantaneous/HL: 0.150; finite_time/LL: 0.322; finite_time/ML: 0.108; finite_time/HL: 0.150
+Running growth_sensitivity: law=broad_binary, g=0.08, 256 candidates/model
+  size_only/LL: 0.293; size_only/ML: 0.129; size_only/HL: 0.108; instantaneous/LL: 0.291; instantaneous/ML: 0.126; instantaneous/HL: 0.180; finite_time/LL: 0.322; finite_time/ML: 0.126; finite_time/HL: 0.166
+Done in 294.0 s
+retained_satellites/size_only/LL: training 0.23251->0.23250, held-out 0.16882, 96 polls
+retained_satellites/size_only/ML: training 0.20172->0.20172, held-out 0.21974, 96 polls
+retained_satellites/size_only/HL: training 0.18342->0.18342, held-out 0.26143, 96 polls
+retained_satellites/instantaneous/LL: training 0.22839->0.22803, held-out 0.15623, 96 polls
+retained_satellites/instantaneous/ML: training 0.18999->0.18968, held-out 0.22213, 96 polls
+retained_satellites/instantaneous/HL: training 0.18140->0.18108, held-out 0.23860, 96 polls
+retained_satellites/finite_time/LL: training 0.22645->0.22626, held-out 0.19399, 96 polls
+retained_satellites/finite_time/ML: training 0.18907->0.18740, held-out 0.22494, 96 polls
+retained_satellites/finite_time/HL: training 0.18142->0.18130, held-out 0.24147, 96 polls
+asymmetric_binary/size_only/LL: training 0.11279->0.11279, held-out 0.26840, 96 polls
+asymmetric_binary/size_only/ML: training 0.19474->0.19471, held-out 0.11638, 96 polls
+asymmetric_binary/size_only/HL: training 0.17814->0.17814, held-out 0.14393, 96 polls
+asymmetric_binary/instantaneous/LL: training 0.10621->0.10508, held-out 0.31889, 96 polls
+asymmetric_binary/instantaneous/ML: training 0.19480->0.19462, held-out 0.11901, 96 polls
+asymmetric_binary/instantaneous/HL: training 0.17592->0.17396, held-out 0.24845, 96 polls
+asymmetric_binary/finite_time/LL: training 0.10327->0.10306, held-out 0.32094, 96 polls
+asymmetric_binary/finite_time/ML: training 0.19480->0.19462, held-out 0.11895, 96 polls
+asymmetric_binary/finite_time/HL: training 0.17491->0.17462, held-out 0.24139, 96 polls
+broad_binary/size_only/LL: training 0.11199->0.11199, held-out 0.28647, 96 polls
+broad_binary/size_only/ML: training 0.19374->0.19373, held-out 0.12413, 96 polls
+broad_binary/size_only/HL: training 0.20273->0.20272, held-out 0.10684, 96 polls
+broad_binary/instantaneous/LL: training 0.11121->0.10900, held-out 0.30368, 96 polls
+broad_binary/instantaneous/ML: training 0.19382->0.19372, held-out 0.12427, 96 polls
+broad_binary/instantaneous/HL: training 0.20229->0.20000, held-out 0.14423, 96 polls
+broad_binary/finite_time/LL: training 0.11115->0.10876, held-out 0.30690, 96 polls
+broad_binary/finite_time/ML: training 0.19383->0.19373, held-out 0.12426, 96 polls
+broad_binary/finite_time/HL: training 0.20234->0.20030, held-out 0.14851, 96 polls
+Finished in 141.8 s
+{
+  "retained_satellites": {
+    "size_only": 0.21666348633669416,
+    "instantaneous": 0.20565548645339474,
+    "finite_time": 0.2201354564275758
+  },
+  "asymmetric_binary": {
+    "size_only": 0.17623325318217667,
+    "instantaneous": 0.2287831953387005,
+    "finite_time": 0.2270930343927844
+  },
+  "broad_binary": {
+    "size_only": 0.17248078054921503,
+    "instantaneous": 0.1907248341291803,
+    "finite_time": 0.19322174312829876
+  },
+  "convergence_max_TV": {
+    "half_dt": 6.481325929521577e-06,
+    "grid2": 0.009598675084285748,
+    "grid4": 0.014373164124248355,
+    "expanded_domain": 6.505499653883053e-09
+  },
+  "finite_wins_instantaneous": 3,
+  "max_primary_material_error": 1.1373414339543864e-05,
+  "max_suppressed_bio_material_fraction": 1.1405142126630174e-05,
+  "persistence_mean_TV": 0.15923843490646203,
+  "individual_predictions_better_than_persistence": 5
+}
+Traceback (most recent call last):
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/verify_outputs.py", line 41, in <module>
+    manifest=dict(python=platform.python_version(),numpy=np.__version__,scipy=scipy.__version__,matplotlib=version('matplotlib'),hashes={str(p.relative_to(HERE)):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(paths)})
+                                                                                                                                                                                 ~~~~~~~~~~~~^^
+  File "/home/teo/miniconda3/lib/python3.13/pathlib/_abc.py", line 625, in read_bytes
+    with self.open(mode='rb') as f:
+         ~~~~~~~~~^^^^^^^^^^^
+  File "/home/teo/miniconda3/lib/python3.13/pathlib/_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/data/vdb_reextraction_2026-09-25'
+
+real	8m2.139s
+user	8m15.989s
+sys	0m11.640s

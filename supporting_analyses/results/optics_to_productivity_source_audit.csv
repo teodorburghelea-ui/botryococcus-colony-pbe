@@ -1,0 +1,11 @@
+metric,value,units,evidence_block,source_pairing_status,interpretation
+intact_optical_mass_absorption_cross_section,8.0,m2 kg-1,optical,diameter and reduced state not reported with this optical endpoint,reported intact large-colony optical endpoint
+disrupted_optical_mass_absorption_cross_section,79.0,m2 kg-1,optical,diameter and reduced state not reported with this optical endpoint,reported high-pressure-disrupted optical endpoint
+disrupted_to_intact_optical_contrast,9.875,dimensionless,optical,reported optical contrast; not paired to the productivity cultures,"size/architecture sensitivity exists, but its D and a dependence is not identified"
+medium_productivity_culture_mean_diameter,145.0,um,productivity,no mass-absorption value reported for this culture endpoint,reported medium-culture productivity diameter
+large_productivity_culture_mean_diameter,434.0,um,productivity,no mass-absorption value reported for this culture endpoint,reported large-culture productivity diameter
+medium_to_large_biomass_productivity_ratio,1.34,dimensionless,productivity,large productivity inferred from a rounded reported gain,reported/inferred process endpoint
+medium_to_large_hydrocarbon_productivity_ratio,1.7400000000000002,dimensionless,productivity,large productivity inferred from a rounded reported gain,reported/inferred process endpoint
+medium_hydrocarbon_to_biomass_productivity_fraction,0.2682926829268293,g hydrocarbon per g biomass productivity,productivity,reported medium-culture productivity values,product allocation observable
+large_hydrocarbon_to_biomass_productivity_fraction,0.20661620409307543,g hydrocarbon per g biomass productivity,productivity,large productivity inferred from rounded gains,product allocation observable
+medium_to_large_hydrocarbon_allocation_contrast,1.2985074626865671,dimensionless,derived no-refit invariant,does not require optical co-registration,minimum state/product-specific contrast required beyond a common optical multiplier

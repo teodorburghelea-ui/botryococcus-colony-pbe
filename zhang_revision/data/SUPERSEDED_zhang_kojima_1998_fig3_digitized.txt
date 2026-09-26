@@ -1,0 +1,10 @@
+zhang_kojima_1998_fig3_digitized.csv is SUPERSEDED (25 Sep 2026) and no longer read by any script.
+
+It is kept byte-identical for provenance (its SHA-256 is recorded in provenance.json).
+Known defects:
+- it contains day-25 histograms for the 10-klx preculture at V_L = 5, 25 and 50 %, which do not exist in
+  Zhang & Kojima (1998) Fig. 3b; its notes and the earlier methods text wrongly claimed they had been checked;
+- it is broadened relative to the source and places marker values 0.025 mm too high (bin centres instead of
+  marker positions); its day-0 histograms smear two- and three-class histograms over 4-5 classes.
+
+Use zhang_kojima_1998_fig3_redigitized.csv (method and QC: redigitization_2026-09-25/README.md).

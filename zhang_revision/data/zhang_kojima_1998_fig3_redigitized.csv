@@ -1,0 +1,301 @@
+figure_panel,preculture_irradiance_klx,lighted_volume_percent,days,marker,diameter_marker_mm,frequency_percent_raw,frequency_percent_normalized,sum_raw_percent,note
+3a-A,3,5,0,circle,0.00,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,0,circle,0.05,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,0,circle,0.10,27.5,26.24,104.8,automatic template detection
+3a-A,3,5,0,circle,0.15,47.1,44.94,104.8,automatic template detection
+3a-A,3,5,0,circle,0.20,30.2,28.82,104.8,automatic template detection
+3a-A,3,5,0,circle,0.25,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,0,circle,0.30,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,0,circle,0.35,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,0,circle,0.40,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,0,circle,0.45,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,0,circle,0.50,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,0,circle,0.55,0.0,0.00,104.8,no marker above baseline (0%)
+3a-A,3,5,4,square,0.00,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.05,37.9,38.32,98.9,automatic template detection
+3a-A,3,5,4,square,0.10,61.0,61.68,98.9,automatic template detection
+3a-A,3,5,4,square,0.15,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.20,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.25,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.30,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.35,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.40,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.45,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.50,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,4,square,0.55,0.0,0.00,98.9,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.00,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.05,92.1,92.38,99.7,automatic template detection
+3a-A,3,5,16,triangle,0.10,7.6,7.62,99.7,automatic template detection
+3a-A,3,5,16,triangle,0.15,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.20,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.25,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.30,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.35,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.40,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.45,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.50,0.0,0.00,99.7,no marker above baseline (0%)
+3a-A,3,5,16,triangle,0.55,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.00,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.05,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.10,27.4,26.15,104.8,occluded by day-16 triangle; local template fit (stroke score 0.909)
+3a-B,3,25,0,circle,0.15,47.0,44.85,104.8,automatic template detection
+3a-B,3,25,0,circle,0.20,30.4,29.01,104.8,automatic template detection
+3a-B,3,25,0,circle,0.25,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.30,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.35,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.40,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.45,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.50,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,0,circle,0.55,0.0,0.00,104.8,no marker above baseline (0%)
+3a-B,3,25,4,square,0.00,0.0,0.00,99.2,no marker above baseline (0%)
+3a-B,3,25,4,square,0.05,5.0,5.04,99.2,automatic template detection
+3a-B,3,25,4,square,0.10,42.1,42.44,99.2,automatic template detection
+3a-B,3,25,4,square,0.15,29.2,29.44,99.2,automatic template detection
+3a-B,3,25,4,square,0.20,15.0,15.12,99.2,automatic template detection
+3a-B,3,25,4,square,0.25,7.9,7.96,99.2,automatic template detection
+3a-B,3,25,4,square,0.30,0.0,0.00,99.2,no marker above baseline (0%)
+3a-B,3,25,4,square,0.35,0.0,0.00,99.2,no marker above baseline (0%)
+3a-B,3,25,4,square,0.40,0.0,0.00,99.2,no marker above baseline (0%)
+3a-B,3,25,4,square,0.45,0.0,0.00,99.2,no marker above baseline (0%)
+3a-B,3,25,4,square,0.50,0.0,0.00,99.2,no marker above baseline (0%)
+3a-B,3,25,4,square,0.55,0.0,0.00,99.2,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.00,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.05,75.0,75.23,99.7,automatic template detection
+3a-B,3,25,16,triangle,0.10,24.7,24.77,99.7,automatic template detection
+3a-B,3,25,16,triangle,0.15,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.20,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.25,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.30,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.35,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.40,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.45,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.50,0.0,0.00,99.7,no marker above baseline (0%)
+3a-B,3,25,16,triangle,0.55,0.0,0.00,99.7,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.00,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.05,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.10,27.2,26.08,104.3,automatic template detection
+3a-C,3,50,0,circle,0.15,46.9,44.97,104.3,automatic template detection
+3a-C,3,50,0,circle,0.20,30.2,28.95,104.3,automatic template detection
+3a-C,3,50,0,circle,0.25,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.30,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.35,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.40,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.45,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.50,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,0,circle,0.55,0.0,0.00,104.3,no marker above baseline (0%)
+3a-C,3,50,4,square,0.00,0.0,0.00,98.5,no marker above baseline (0%)
+3a-C,3,50,4,square,0.05,7.5,7.61,98.5,automatic template detection
+3a-C,3,50,4,square,0.10,45.9,46.60,98.5,automatic template detection
+3a-C,3,50,4,square,0.15,29.9,30.36,98.5,automatic template detection
+3a-C,3,50,4,square,0.20,11.5,11.68,98.5,automatic template detection
+3a-C,3,50,4,square,0.25,2.0,2.03,98.5,small value measured relative to the series baseline marker height; visually confirmed raised above baseline (score 0.897)
+3a-C,3,50,4,square,0.30,1.7,1.73,98.5,small value measured relative to the series baseline marker height; visually confirmed raised above baseline (score 0.897)
+3a-C,3,50,4,square,0.35,0.0,0.00,98.5,no marker above baseline (0%)
+3a-C,3,50,4,square,0.40,0.0,0.00,98.5,no marker above baseline (0%)
+3a-C,3,50,4,square,0.45,0.0,0.00,98.5,no marker above baseline (0%)
+3a-C,3,50,4,square,0.50,0.0,0.00,98.5,no marker above baseline (0%)
+3a-C,3,50,4,square,0.55,0.0,0.00,98.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.00,0.0,0.00,97.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.05,2.4,2.46,97.5,automatic template detection
+3a-C,3,50,16,triangle,0.10,78.0,80.00,97.5,automatic template detection
+3a-C,3,50,16,triangle,0.15,17.1,17.54,97.5,automatic template detection
+3a-C,3,50,16,triangle,0.20,0.0,0.00,97.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.25,0.0,0.00,97.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.30,0.0,0.00,97.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.35,0.0,0.00,97.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.40,0.0,0.00,97.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.45,0.0,0.00,97.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.50,0.0,0.00,97.5,no marker above baseline (0%)
+3a-C,3,50,16,triangle,0.55,0.0,0.00,97.5,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.00,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.05,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.10,27.4,26.17,104.7,automatic template detection
+3a-D,3,100,0,circle,0.15,47.1,44.99,104.7,automatic template detection
+3a-D,3,100,0,circle,0.20,30.2,28.84,104.7,fully hidden inside the day-4 square at the same position; inferred from the identical day-0 histograms in panels A and C (30.2%)
+3a-D,3,100,0,circle,0.25,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.30,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.35,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.40,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.45,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.50,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,0,circle,0.55,0.0,0.00,104.7,no marker above baseline (0%)
+3a-D,3,100,4,square,0.00,0.0,0.00,93.7,no marker above baseline (0%)
+3a-D,3,100,4,square,0.05,0.0,0.00,93.7,no marker above baseline (0%)
+3a-D,3,100,4,square,0.10,16.6,17.72,93.7,occluded by day-16 triangle; local template fit (stroke score 0.976)
+3a-D,3,100,4,square,0.15,26.1,27.85,93.7,automatic template detection
+3a-D,3,100,4,square,0.20,30.1,32.12,93.7,automatic template detection
+3a-D,3,100,4,square,0.25,20.9,22.31,93.7,automatic template detection
+3a-D,3,100,4,square,0.30,0.0,0.00,93.7,no marker above baseline (0%)
+3a-D,3,100,4,square,0.35,0.0,0.00,93.7,no marker above baseline (0%)
+3a-D,3,100,4,square,0.40,0.0,0.00,93.7,no marker above baseline (0%)
+3a-D,3,100,4,square,0.45,0.0,0.00,93.7,no marker above baseline (0%)
+3a-D,3,100,4,square,0.50,0.0,0.00,93.7,no marker above baseline (0%)
+3a-D,3,100,4,square,0.55,0.0,0.00,93.7,no marker above baseline (0%)
+3a-D,3,100,16,triangle,0.00,0.0,0.00,94.6,no marker above baseline (0%)
+3a-D,3,100,16,triangle,0.05,0.0,0.00,94.6,no marker above baseline (0%)
+3a-D,3,100,16,triangle,0.10,16.3,17.23,94.6,automatic template detection
+3a-D,3,100,16,triangle,0.15,35.3,37.32,94.6,automatic template detection
+3a-D,3,100,16,triangle,0.20,26.5,28.01,94.6,automatic template detection
+3a-D,3,100,16,triangle,0.25,11.5,12.16,94.6,automatic template detection
+3a-D,3,100,16,triangle,0.30,3.5,3.70,94.6,automatic template detection
+3a-D,3,100,16,triangle,0.35,0.0,0.00,94.6,no marker above baseline (0%)
+3a-D,3,100,16,triangle,0.40,1.5,1.59,94.6,automatic template detection
+3a-D,3,100,16,triangle,0.45,0.0,0.00,94.6,no marker above baseline (0%)
+3a-D,3,100,16,triangle,0.50,0.0,0.00,94.6,no marker above baseline (0%)
+3a-D,3,100,16,triangle,0.55,0.0,0.00,94.6,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.00,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.05,39.1,39.42,99.2,automatic template detection
+3b-A,10,5,0,circle,0.10,60.1,60.58,99.2,automatic template detection
+3b-A,10,5,0,circle,0.15,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.20,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.25,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.30,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.35,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.40,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.45,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.50,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,0,circle,0.55,0.0,0.00,99.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.00,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.05,89.1,88.92,100.2,automatic template detection
+3b-A,10,5,5,square,0.10,11.1,11.08,100.2,automatic template detection
+3b-A,10,5,5,square,0.15,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.20,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.25,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.30,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.35,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.40,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.45,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.50,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,5,square,0.55,0.0,0.00,100.2,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.00,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.05,96.8,97.19,99.6,automatic template detection
+3b-A,10,5,18,triangle,0.10,2.8,2.81,99.6,automatic template detection
+3b-A,10,5,18,triangle,0.15,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.20,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.25,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.30,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.35,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.40,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.45,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.50,0.0,0.00,99.6,no marker above baseline (0%)
+3b-A,10,5,18,triangle,0.55,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.00,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.05,39.1,39.46,99.1,automatic template detection
+3b-B,10,25,0,circle,0.10,60.0,60.54,99.1,automatic template detection
+3b-B,10,25,0,circle,0.15,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.20,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.25,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.30,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.35,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.40,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.45,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.50,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,0,circle,0.55,0.0,0.00,99.1,no marker above baseline (0%)
+3b-B,10,25,5,square,0.00,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,5,square,0.05,10.9,11.01,99.0,automatic template detection
+3b-B,10,25,5,square,0.10,72.9,73.64,99.0,automatic template detection
+3b-B,10,25,5,square,0.15,15.2,15.35,99.0,automatic template detection
+3b-B,10,25,5,square,0.20,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,5,square,0.25,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,5,square,0.30,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,5,square,0.35,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,5,square,0.40,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,5,square,0.45,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,5,square,0.50,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,5,square,0.55,0.0,0.00,99.0,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.00,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.05,94.7,95.08,99.6,automatic template detection
+3b-B,10,25,18,triangle,0.10,4.9,4.92,99.6,automatic template detection
+3b-B,10,25,18,triangle,0.15,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.20,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.25,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.30,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.35,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.40,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.45,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.50,0.0,0.00,99.6,no marker above baseline (0%)
+3b-B,10,25,18,triangle,0.55,0.0,0.00,99.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.00,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.05,38.6,39.15,98.6,automatic template detection
+3b-C,10,50,0,circle,0.10,60.0,60.85,98.6,automatic template detection
+3b-C,10,50,0,circle,0.15,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.20,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.25,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.30,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.35,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.40,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.45,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.50,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,0,circle,0.55,0.0,0.00,98.6,no marker above baseline (0%)
+3b-C,10,50,5,square,0.00,0.0,0.00,98.3,no marker above baseline (0%)
+3b-C,10,50,5,square,0.05,0.0,0.00,98.3,no marker above baseline (0%)
+3b-C,10,50,5,square,0.10,24.7,25.13,98.3,automatic template detection
+3b-C,10,50,5,square,0.15,52.0,52.90,98.3,automatic template detection
+3b-C,10,50,5,square,0.20,16.5,16.79,98.3,automatic template detection
+3b-C,10,50,5,square,0.25,2.6,2.64,98.3,automatic template detection
+3b-C,10,50,5,square,0.30,2.5,2.54,98.3,small value measured relative to the series baseline marker height; visually confirmed raised above baseline (score 0.933)
+3b-C,10,50,5,square,0.35,0.0,0.00,98.3,no marker above baseline (0%)
+3b-C,10,50,5,square,0.40,0.0,0.00,98.3,no marker above baseline (0%)
+3b-C,10,50,5,square,0.45,0.0,0.00,98.3,no marker above baseline (0%)
+3b-C,10,50,5,square,0.50,0.0,0.00,98.3,no marker above baseline (0%)
+3b-C,10,50,5,square,0.55,0.0,0.00,98.3,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.00,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.05,57.7,57.99,99.5,automatic template detection
+3b-C,10,50,18,triangle,0.10,41.8,42.01,99.5,automatic template detection
+3b-C,10,50,18,triangle,0.15,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.20,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.25,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.30,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.35,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.40,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.45,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.50,0.0,0.00,99.5,no marker above baseline (0%)
+3b-C,10,50,18,triangle,0.55,0.0,0.00,99.5,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.00,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.05,38.9,39.29,99.0,automatic template detection
+3b-D,10,100,0,circle,0.10,60.1,60.71,99.0,automatic template detection
+3b-D,10,100,0,circle,0.15,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.20,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.25,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.30,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.35,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.40,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.45,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.50,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,0,circle,0.55,0.0,0.00,99.0,no marker above baseline (0%)
+3b-D,10,100,5,square,0.00,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,5,square,0.05,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,5,square,0.10,18.7,18.78,99.6,occluded by day-18 triangle; local template fit (stroke score 0.869)
+3b-D,10,100,5,square,0.15,65.1,65.36,99.6,automatic template detection
+3b-D,10,100,5,square,0.20,15.8,15.86,99.6,overlapped by day-25 diamond; local template fit (stroke score 0.956)
+3b-D,10,100,5,square,0.25,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,5,square,0.30,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,5,square,0.35,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,5,square,0.40,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,5,square,0.45,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,5,square,0.50,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,5,square,0.55,0.0,0.00,99.6,no marker above baseline (0%)
+3b-D,10,100,18,triangle,0.00,0.0,0.00,97.8,no marker above baseline (0%)
+3b-D,10,100,18,triangle,0.05,1.6,1.64,97.8,automatic template detection
+3b-D,10,100,18,triangle,0.10,22.7,23.21,97.8,automatic template detection
+3b-D,10,100,18,triangle,0.15,12.8,13.09,97.8,automatic template detection
+3b-D,10,100,18,triangle,0.20,29.9,30.57,97.8,automatic template detection
+3b-D,10,100,18,triangle,0.25,8.3,8.49,97.8,automatic template detection
+3b-D,10,100,18,triangle,0.30,11.5,11.76,97.8,automatic template detection
+3b-D,10,100,18,triangle,0.35,5.6,5.73,97.8,automatic template detection
+3b-D,10,100,18,triangle,0.40,5.4,5.52,97.8,automatic template detection
+3b-D,10,100,18,triangle,0.45,0.0,0.00,97.8,no marker above baseline (0%)
+3b-D,10,100,18,triangle,0.50,0.0,0.00,97.8,no marker above baseline (0%)
+3b-D,10,100,18,triangle,0.55,0.0,0.00,97.8,no marker above baseline (0%)
+3b-D,10,100,25,diamond,0.00,0.0,0.00,98.8,no marker above baseline (0%)
+3b-D,10,100,25,diamond,0.05,6.2,6.28,98.8,automatic template detection
+3b-D,10,100,25,diamond,0.10,36.9,37.35,98.8,automatic template detection
+3b-D,10,100,25,diamond,0.15,38.1,38.56,98.8,automatic template detection
+3b-D,10,100,25,diamond,0.20,13.6,13.77,98.8,automatic template detection
+3b-D,10,100,25,diamond,0.25,4.0,4.05,98.8,automatic template detection
+3b-D,10,100,25,diamond,0.30,0.0,0.00,98.8,no marker above baseline (0%)
+3b-D,10,100,25,diamond,0.35,0.0,0.00,98.8,no marker above baseline (0%)
+3b-D,10,100,25,diamond,0.40,0.0,0.00,98.8,no marker above baseline (0%)
+3b-D,10,100,25,diamond,0.45,0.0,0.00,98.8,no marker above baseline (0%)
+3b-D,10,100,25,diamond,0.50,0.0,0.00,98.8,no marker above baseline (0%)
+3b-D,10,100,25,diamond,0.55,0.0,0.00,98.8,no marker above baseline (0%)

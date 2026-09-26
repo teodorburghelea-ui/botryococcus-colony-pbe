@@ -1,0 +1,10 @@
+{
+  "fits": 90,
+  "stored_histograms": 2250,
+  "global_evaluations_per_fit": 512,
+  "local_evaluations_per_fit": 128,
+  "score_recomputation": true,
+  "initialization_and_overflow": true,
+  "nested_training_loss": true,
+  "source_hashes": true
+}

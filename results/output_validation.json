@@ -1,0 +1,9 @@
+{
+  "fits": 27,
+  "extra_evaluations_per_fit": 96,
+  "global_candidates_per_fit": 512,
+  "replicate_scores_recomputed": true,
+  "probability_normalization": true,
+  "training_only_selection_consistency": true,
+  "input_hashes_match": true
+}

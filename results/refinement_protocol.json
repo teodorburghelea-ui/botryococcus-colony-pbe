@@ -1,0 +1,11 @@
+{
+  "reason": "Search-prefix dependence in the first 512-candidate comparison",
+  "method": "Bounded coordinate poll, initial normalized step 0.125, shrink by 0.5 on no improvement",
+  "extra_candidate_budget": 96,
+  "selection": "training TV only",
+  "dimensions": {
+    "size_only": 1,
+    "instantaneous": 2,
+    "finite_time": 3
+  }
+}

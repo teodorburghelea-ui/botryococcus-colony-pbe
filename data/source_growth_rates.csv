@@ -1,0 +1,6 @@
+condition,incident_light_umol_m2_s,growth_rate_d_1,note
+LL1,50,0.071,Approximate visual read from published Fig. 1B
+LL2,50,0.061,Approximate visual read from published Fig. 1B
+ML,150,0.08,Approximate visual read from published Fig. 1B
+HL1,450,0.062,Approximate visual read from published Fig. 1B
+HL2,450,0.077,Approximate visual read from published Fig. 1B

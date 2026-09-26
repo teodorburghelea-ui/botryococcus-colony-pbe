@@ -1,0 +1,62 @@
+\section{Matched biological-production ablation}
+\label{app:matched-ablation}
+
+\subsection{Common initial condition, operators and observations}
+
+The reanalysis uses the archived smooth log-normal/mixture reconstructions of the Start, LL1, LL2, ML, HL1 and HL2 volume curves from Fig.~2 of van den Berg et al.\ \cite{VandenBerg2019}. The primary study split one medium-light culture into two low-light, one medium-light and two high-light cultures; the incident photon fluxes were 50, 150 and $450~\mu\mathrm{mol~m^{-2}~s^{-1}}$, respectively. These reconstructions are surrogate targets, not original replicate measurements with known binwise errors. Their individual identities are retained in scoring. The same Start curve initializes every model and every light condition. No day-20 curve enters initialization. All tests are retrospective because the published curves and the previous reconstruction had already been inspected.
+
+For this controlled comparison, compactness and effective density are constant, so $x\propto D^3$ and envelope-volume weights coincide with retained-material weights. The initial volume probability in each source log-diameter bin is distributed uniformly over its computational sub-bins, then divided by $D^3$ to obtain colony numbers. Reaggregation onto the source bins returns the same initial volume curve exactly. Predicted volume probabilities are obtained by summing $D^3N$ within those same bins and normalizing over the full computational domain. Additional bins below and above the measured diameter range carry zero observed probability and remain in the score; exterior predicted material is not discarded or renormalized away.
+
+The common growth law is $G_x=gx$, with $g=0.07~\mathrm{d^{-1}}$ in the primary comparison. This is a declared retained-material growth scenario, motivated by the approximate reported biomass-growth range, not an identified colony-growth law. It assumes a fixed relation between retained material and biomass, extends the approximate exponential growth phase to the 20-d endpoint, and omits composition changes and aggregation. Refitted sensitivity comparisons use $g=0$, $0.06$ and $0.08~\mathrm{d^{-1}}$. Shell loss is zero. All models retain equal-material binary mechanical breakup at rate
+\[
+ \beta_h(D)=0.020\,S_D(D)~\mathrm{d^{-1}},\qquad
+ S_D(D)=\left[1+\exp\!\left(-\frac{D-0.250~\mathrm{mm}}{0.035~\mathrm{mm}}\right)\right]^{-1}.
+\]
+The mechanical operator and size gate are identical across models. An event is disabled only for a parent whose prescribed daughter support would extend below the computational domain. The corresponding material fraction and its domain sensitivity are recorded explicitly.
+
+\subsection{Three rate models with the same biological daughter law}
+
+Each model includes $\mathcal F_{\mathrm{bio}}$ with the same parent-relative daughter law within a comparison. The only changed closure is its biological rate:
+\begin{align}
+ \beta_b^{(0)}(D)&=bS_D(D),\label{eq:matched-size-only}\\
+ \beta_b^{(\mathrm{eq})}(D,I)&=bS_D(D)\exp[\eta(1/2-a_{\mathrm{eq}}(I))],\label{eq:matched-instant}\\
+ \beta_b^{(\tau)}(D,t)&=bS_D(D)\exp[\eta(1/2-a(t))],\label{eq:matched-finite}\\
+ a(t)&=a_{\mathrm{eq}}+(1/2-a_{\mathrm{eq}})\exp(-t/\tau),\nonumber\\
+ a_{\mathrm{eq}}(I)&=\frac{I}{I+150~\mu\mathrm{mol~m^{-2}~s^{-1}}}.\label{eq:matched-equilibrium}
+\end{align}
+The light-independent size-only model has one fitted parameter $b$, the instantaneous model has $(b,\eta)$, and the finite-time model has $(b,\eta,\tau)$. Both signs of $\eta$ are allowed. The response is strictly positive for admissible finite coefficients: neither simpler model loses biological production. Equation~\eqref{eq:matched-instant} is itself a one-coordinate PBE with a direct light-dependent rate; an algebraic state does not add a dynamic coordinate.
+
+The precursor state is fixed at $a(0^-)=1/2$ in all cultures. For the instantaneous limit it jumps to $a_{\mathrm{eq}}$ at the light change; finite relaxation starts from $1/2$. To isolate relaxation from daughter-state reset, every descendant inherits the parent state, and the initial state distribution is a point mass. As $G_a$ depends only on $a$ and the prescribed light, the structured solution has the exact form $n(x,a,t)=N(x,t)\delta[a-a(t)]$. The finite-time simulation therefore advances its marginal without a state grid. This is an exact restricted member of the structured framework, not a numerical validation of heterogeneous states, maturation gating or state resets. A prescribed time-dependent one-coordinate rate could represent the same marginal; endpoint distributions alone cannot identify the biological interpretation of the latent state.
+
+\subsection{Parent-relative daughter-law alternatives}
+
+Three conservative laws are compared separately, without selecting a law using held-out errors. If $r=D_d/D_m$, the retained-satellite law has one retained branch at $r=0.9^{1/3}$ and a satellite material distribution with log-ratio center $\ln(0.18)$ and log-standard-deviation $0.28$, truncated to $0.08\leq r\leq0.45$. Seventeen log-midpoint quadrature nodes have normalized material weights $w_j$. Their expected counts are $0.10w_j/r_j^3$, so
+\[
+ \sum_j \nu_j r_j^3=1,\qquad \sum_j\nu_j\simeq24.983
+\]
+including the retained branch. This is a many-satellite numerical hypothesis, not evidence for that descendant count in real colonies. It differs from the older fixed-global-daughter-scale illustration by scaling every daughter to its own parent and truncating the support.
+
+The asymmetric-binary law gives exactly two descendants with material fractions $0.10$ and $0.90$. The broad-binary law averages conservative pairs $(z,1-z)$ over a uniform fraction $z\in[0.10,0.50]$, using nine-point Gauss--Legendre quadrature. It also has expected descendant number two. These alternatives span retained satellites and narrower or broader binary partitioning; none is inferred from the available microscopy. All satisfy $0<x_d\leq x_m$ individually and conserve the first material moment. Linear deposition between adjacent material pivots preserves expected number and assigned material, with neither receiving pivot larger than the parent. Maximum relative first-moment residuals in the primary-grid event matrices were below $3.5\times10^{-16}$.
+
+\subsection{Equal search budgets and excluded-condition scoring}
+
+For each daughter law, three fits reserve LL, ML or HL in turn and use the remaining two conditions for calibration. If $p_{m,c}$ is a predicted volume probability vector and $p_{c,r}$ a reconstructed replicate, the objective is
+\begin{equation}
+ J_m=\frac{1}{2}\sum_{c\in\mathcal C_{\mathrm{train}}}
+ \frac{1}{R_c}\sum_{r=1}^{R_c}\frac{1}{2}\sum_k
+ |p_{m,c,k}-p_{c,r,k}|.
+ \label{eq:matched-objective}
+\end{equation}
+Each condition has equal total weight; LL and HL replicates are averaged only after their separate distances have been evaluated. The held-out condition contributes neither to the objective nor to parameter or daughter-law selection. Its error is reported without refitting. Per-replicate Wasserstein distances are also archived.
+
+Each initial search evaluates 512 deterministic scrambled-Sobol candidates with seed 20260914. The bounds are $0.0031623\leq b\leq1~\mathrm{d^{-1}}$, $-8\leq\eta\leq8$, and $0.25\leq\tau\leq32$~d, sampled logarithmically in $b$ and positive $\tau$. All models use the same sequence of $b$ values and, where applicable, $\eta$ values. The first eight candidates set $\eta=0$ and the first 32 finite-time candidates set $\tau=0$ to include neutral and instantaneous limits within the same budget. The extra parameter in the finite-time model is disclosed; equal search budgets do not make the model complexities equal.
+
+Search-prefix checks at 128, 256 and 512 candidates exposed sensitivity of prediction rankings to weakly separated training fits. Consequently the same training-only local refinement was added to all 27 law/model/fold combinations: 96 bounded coordinate-poll candidates, starting at the best global candidate, with an initial normalized step of $0.125$ and halving when no improvement was found. Refinement uses normalized $\log_{10}b$, $\eta$ and $\log(1+\tau/0.25)$ coordinates as applicable, permitting the continuous interval $0\leq\tau\leq32$~d, including relaxation times below the initial positive-candidate bound. Some fitted light-response coefficients reach the imposed $\eta=8$ bound; their values remain conditional on the chosen rate family and bounds. The primary reported results use 512 global plus 96 local candidate evaluations per fit. This extension and all candidate scores are archived; it is not claimed to have been prospectively registered before the earlier reconstructions were inspected. These finite searches do not certify a global optimum. Candidate sets lying within 0.005 or 0.01 training TV of the best global fit illustrate sensitivity, not statistical confidence intervals. Auxiliary growth comparisons use equal 256-candidate searches for every model within each growth scenario.
+
+\subsection{Verification of the actual comparison solver}
+
+Four computational sub-bins per source log-diameter bin and eight additional source-width bins on either side give 284 material pivots. The common primary timestep is $0.10$~d. Positive second-order strong-stability-preserving Runge--Kutta updates advance growth and both event operators together. State relaxation is evaluated analytically at the stage times. The timestep is checked against the outgoing-rate positivity bound. Material growth uses adjacent-pivot transport whose discrete first-moment derivative is $g\sum x_iN_i$ except at the closed upper pivot; occupancy there and the associated growth suppression are diagnosed. Material conservation of each event is checked independently of the time-integrated growth balance.
+
+Unit checks verify expected descendant numbers, parent support, common initial observation, nonzero biological production in all models, the exact $\tau=0$ and $\eta=0$ limits, and equality of instantaneous and finite-time responses in an already equilibrated ML culture. An independent no-event analytic growth test translates the initial volume distribution by $gt/3$ in log diameter; its TV error decreases from 0.0274 to 0.00347 under refinement from two to sixteen sub-bins per source bin. Frozen fitted-parameter tests halve the timestep, double and quadruple spatial resolution, and expand the domain. They quantify discretization sensitivity of predictions, not uncertainty in the reconstructed source data or convergence of a reoptimized continuum parameter fit. Numerical results for the locally refined fits are reported in the accompanying results tables.
+
+\input{acceptance_revision/matched_ablation/results/parameter_table.tex}

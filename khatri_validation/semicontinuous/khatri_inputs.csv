@@ -1,0 +1,5 @@
+daily_replacement_fraction,steady_dry_weight_g_L,OD550_per_gDW_L,colony_diameter_mm,colony_diameter_sd_mm,source
+0.05,23.0,0.181,0.093,0.049,"Khatri et al. 2014: dry weight Fig. 5 (text: 22.3 g/L at 5%); OD/gDW Fig. 6 diamonds (text: 0.18); diameter Fig. 6 bars"
+0.075,18.1,0.090,0.179,0.111,"Fig. 5; Fig. 6"
+0.10,13.3,0.084,0.224,0.087,"Fig. 5; Fig. 6"
+0.125,9.3,0.077,0.343,0.097,"Fig. 5 (text: 2.0 g oil/L at 22.5% oil -> 8.9 g/L); Fig. 6 (text: 0.076); text: 0.34 mm"

@@ -1,0 +1,28 @@
+{
+  "retained_satellites": {
+    "size_only": 0.21666348633669416,
+    "instantaneous": 0.20565548645339474,
+    "finite_time": 0.2201354564275758
+  },
+  "asymmetric_binary": {
+    "size_only": 0.17623325318217667,
+    "instantaneous": 0.2287831953387005,
+    "finite_time": 0.2270930343927844
+  },
+  "broad_binary": {
+    "size_only": 0.17248078054921503,
+    "instantaneous": 0.1907248341291803,
+    "finite_time": 0.19322174312829876
+  },
+  "convergence_max_TV": {
+    "half_dt": 6.481325929521577e-06,
+    "grid2": 0.009598675084285748,
+    "grid4": 0.014373164124248355,
+    "expanded_domain": 6.505499653883053e-09
+  },
+  "finite_wins_instantaneous": 3,
+  "max_primary_material_error": 1.1373414339543864e-05,
+  "max_suppressed_bio_material_fraction": 1.1405142126630174e-05,
+  "persistence_mean_TV": 0.15923843490646203,
+  "individual_predictions_better_than_persistence": 5
+}

@@ -1,0 +1,10 @@
+equal_binary size_only checked
+equal_binary instantaneous checked
+equal_binary finite_time checked
+asymmetric_binary size_only checked
+asymmetric_binary instantaneous checked
+asymmetric_binary finite_time checked
+broad_binary size_only checked
+broad_binary instantaneous checked
+broad_binary finite_time checked
+Numerical checks saved

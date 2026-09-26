@@ -1,0 +1,36 @@
+{
+  "scenario": "bins_minus_0p011",
+  "law": "asymmetric_binary",
+  "model": "size_only",
+  "parameters": [
+    0.1511919189208857,
+    0.038805012951540464,
+    0.0,
+    0.0
+  ],
+  "training_TV": 0.36214212086513375,
+  "test_TV": 0.4421578897223213,
+  "seconds": 63.68887532099325,
+  "audit": {
+    "number": 2.0,
+    "material_residual": 2.5242303230960715e-16,
+    "number_residual": 2.220446049250313e-16,
+    "above_parent": 0
+  },
+  "diagnostics": [
+    {
+      "preculture": 3,
+      "min_population": 0.0,
+      "max_upper_number_fraction": 9.823240187652784e-14,
+      "max_disabled_bio_number_fraction": 1.8652910079259225e-31,
+      "max_relative_material_error": 2.2156317631916167e-05
+    },
+    {
+      "preculture": 10,
+      "min_population": 0.0,
+      "max_upper_number_fraction": 4.321225753622812e-22,
+      "max_disabled_bio_number_fraction": 1.0611670737123279e-30,
+      "max_relative_material_error": 1.9126406955116693e-05
+    }
+  ]
+}
