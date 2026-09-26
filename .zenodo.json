@@ -5,7 +5,7 @@
   "creators": [
     {"name": "Burghelea, T.", "affiliation": "Laboratoire de Thermique et Énergie de Nantes (LTeN), UMR 6607, Nantes Université, CNRS, Nantes, France"}
   ],
-  "license": "MIT",
+  "license": "mit",
   "keywords": ["Botryococcus braunii", "population balance", "colony size distribution", "photobioreactor"],
   "access_right": "open"
 }
