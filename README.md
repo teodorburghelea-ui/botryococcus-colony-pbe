@@ -62,4 +62,6 @@ Set `OPENBLAS_NUM_THREADS=1` for bitwise-stable results.
 
 ## How to cite
 
-See `CITATION.cff`. The archive DOI will be added on deposit.
+Archive DOI (version v1.0.1): [10.5281/zenodo.22973154](https://doi.org/10.5281/zenodo.22973154). All versions: [10.5281/zenodo.22973041](https://doi.org/10.5281/zenodo.22973041). See also `CITATION.cff`.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22973154.svg)](https://doi.org/10.5281/zenodo.22973154)

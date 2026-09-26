@@ -8,6 +8,7 @@ authors:
     affiliation: "Laboratoire de Thermique et Énergie de Nantes (LTeN), UMR 6607, Nantes Université, CNRS, Nantes, France"
     orcid: "https://orcid.org/0000-0003-1631-9537"
 license: MIT
+doi: "10.5281/zenodo.22973154"
 version: "1.0.0"
 date-released: "2026-09-26"
 keywords:
