@@ -43,3 +43,6 @@ qsscr broad_binary 7 0.462
 qsscr broad_binary 5 0.423
 qsscr broad_binary 6 0.427
 qsscr broad_binary 8 0.385
+widebound asymmetric_binary 0.273
+widebound broad_binary 0.269
+widebound equal_binary 0.255
