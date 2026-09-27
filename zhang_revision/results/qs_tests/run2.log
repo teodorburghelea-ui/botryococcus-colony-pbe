@@ -16,3 +16,18 @@ qs_broaden_equal_binary {'size_only': (0.265, 0.392), 'instantaneous': (0.263, 0
 qs_tail_up_equal_binary {'size_only': (0.302, 0.469), 'instantaneous': (0.27, 0.461)}
 qs_tail_up_asymmetric_binary {'size_only': (0.35, 0.461), 'instantaneous': (0.294, 0.433)}
 qs_tail_up_broad_binary {'size_only': (0.317, 0.463), 'instantaneous': (0.269, 0.422)}
+qs_tail_down_equal_binary {'size_only': (0.294, 0.457), 'instantaneous': (0.265, 0.447)}
+qs_tail_down_asymmetric_binary {'size_only': (0.343, 0.446), 'instantaneous': (0.287, 0.417)}
+qs_tail_down_broad_binary {'size_only': (0.309, 0.451), 'instantaneous': (0.261, 0.415)}
+qs_bins_minus_0p011_asymmetric_binary {'size_only': (0.346, 0.459), 'instantaneous': (0.289, 0.442)}
+qs_bins_minus_0p011_equal_binary {'size_only': (0.302, 0.467), 'instantaneous': (0.272, 0.474)}
+qs_bins_minus_0p011_broad_binary {'size_only': (0.315, 0.462), 'instantaneous': (0.279, 0.456)}
+{"primary": 0.2848624863232112, "shift_left": 0.26177531419057387, "shift_right": 0.27502606111990713, "broaden": 0.2781627713197368, "tail_up": 0.2901146194550636, "tail_down": 0.27909868108988267, "bins_minus_0p011": 0.29761303389464266, "scrambled_primary": [0.477, 0.538, 0.511, 0.512, 0.507, 0.499, 0.51, 0.48, 0.465]}
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
+Terminated
