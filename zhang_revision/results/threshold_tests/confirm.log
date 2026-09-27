@@ -30,3 +30,16 @@ qsscr asymmetric_binary 1 0.505
 qsscr asymmetric_binary 2 0.452
 qsscr asymmetric_binary 3 0.421
 qsscr asymmetric_binary 4 0.463
+qsscr asymmetric_binary 5 0.438
+qsscr asymmetric_binary 7 0.462
+qsscr asymmetric_binary 6 0.452
+qsscr broad_binary 0 0.407
+qsscr asymmetric_binary 8 0.391
+qsscr broad_binary 1 0.448
+qsscr broad_binary 2 0.468
+qsscr broad_binary 3 0.421
+qsscr broad_binary 4 0.46
+qsscr broad_binary 7 0.462
+qsscr broad_binary 5 0.423
+qsscr broad_binary 6 0.427
+qsscr broad_binary 8 0.385
