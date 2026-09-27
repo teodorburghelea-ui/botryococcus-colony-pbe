@@ -2,3 +2,15 @@ qsscen bins_minus_0p011 equal_binary 0.293
 qsscen shift_left asymmetric_binary 0.253
 qsscen shift_right asymmetric_binary 0.271
 qsscen tail_up equal_binary 0.268
+qsscen shift_left equal_binary 0.264
+qsscen tail_down equal_binary 0.252
+qsscen broaden equal_binary 0.267
+qsscen shift_right equal_binary 0.313
+qsscen broaden asymmetric_binary 0.288
+qsscen bins_minus_0p011 asymmetric_binary 0.284
+qsscen tail_down asymmetric_binary 0.275
+qsscen tail_up asymmetric_binary 0.285
+qsscen shift_left broad_binary 0.247
+qsscen shift_right broad_binary 0.269
+qsscen broaden broad_binary 0.263
+qsscen tail_up broad_binary 0.28

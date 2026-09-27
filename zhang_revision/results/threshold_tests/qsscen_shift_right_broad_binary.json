@@ -1,0 +1,1 @@
+{"scenario": "shift_right", "law": "broad_binary", "parameters": [0.2897375096983578, 0.1454501246434376, 1.0463240761309862, 0.0], "training_TV": 0.2369630436661414, "transfer_TV": 0.2686605883580287}

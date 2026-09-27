@@ -1,0 +1,1 @@
+{"scenario": "tail_up", "law": "asymmetric_binary", "parameters": [0.9722836188086973, 0.20470639662074075, 0.7440414000302553, 0.0], "training_TV": 0.23024261080056005, "transfer_TV": 0.2850287296933775}
