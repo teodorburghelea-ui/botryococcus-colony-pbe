@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering\small
+\caption{Bubble-column transfer test: all predictors fitted to the eight post-initial 3-klx histograms and scored, without refitting, on the nine post-initial 10-klx histograms (mean TV; lower is better). PBE entries give the range over three biological daughter laws. Static predictors have no dynamics and no initial condition. The counting-noise floor for 100 colonies is 0.047.}
+\label{tab:models}
+\footnotesize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcll}
+\toprule
+Predictor & Fitted & Training TV & Transfer TV \\
+\midrule
+Persistence (no fit) & 0 & 0.502 & 0.553 \\
+Growth only (no fit) & 0 & 0.623 & 0.535 \\
+Static log-normal, no light & 2 & 0.399 & 0.503 \\
+Static log-normal, current light & 3 & 0.229 & 0.285 \\
+\midrule
+PBE: dynamic, size-only & 2 & 0.309--0.367 & 0.438--0.461 \\
+PBE: dynamic, light-dependent rate & 3 & 0.194--0.275 & 0.366--0.397 \\
+PBE: quasi-steady, light-dependent rate & 3 & 0.265--0.290 & 0.417--0.443 \\
+PBE: dynamic, light-dependent release size & 3 & 0.182--0.209 & 0.346--0.400 \\
+PBE: quasi-steady, light-dependent release size & 3 & 0.227--0.249 & 0.257--0.280 \\
+\bottomrule
+\end{tabular}
+\end{table}
