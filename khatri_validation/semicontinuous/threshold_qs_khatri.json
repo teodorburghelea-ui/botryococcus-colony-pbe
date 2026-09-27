@@ -1,0 +1,182 @@
+{
+ "primary (daily-mean light, balance growth) | equal_binary": {
+  "D10": [
+   0.078,
+   0.127,
+   0.162,
+   0.219
+  ],
+  "ratio": 2.81,
+  "trend_share": 0.79,
+  "rmse": 0.074,
+  "max_top_pivot_mass": 0.0
+ },
+ "primary (daily-mean light, balance growth) | asymmetric_binary": {
+  "D10": [
+   0.09,
+   0.132,
+   0.154,
+   0.176
+  ],
+  "ratio": 1.96,
+  "trend_share": 0.52,
+  "rmse": 0.093,
+  "max_top_pivot_mass": 0.0
+ },
+ "primary (daily-mean light, balance growth) | broad_binary": {
+  "D10": [
+   0.085,
+   0.137,
+   0.162,
+   0.188
+  ],
+  "ratio": 2.22,
+  "trend_share": 0.61,
+  "rmse": 0.086,
+  "max_top_pivot_mass": 0.0
+ },
+ "conversion x0.5 | equal_binary": {
+  "D10": [
+   0.056,
+   0.093,
+   0.12,
+   0.162
+  ],
+  "ratio": 2.9,
+  "trend_share": 0.82,
+  "rmse": 0.114,
+  "max_top_pivot_mass": 0.0
+ },
+ "conversion x0.5 | asymmetric_binary": {
+  "D10": [
+   0.069,
+   0.102,
+   0.119,
+   0.137
+  ],
+  "ratio": 1.98,
+  "trend_share": 0.52,
+  "rmse": 0.122,
+  "max_top_pivot_mass": 0.0
+ },
+ "conversion x0.5 | broad_binary": {
+  "D10": [
+   0.06,
+   0.097,
+   0.115,
+   0.134
+  ],
+  "ratio": 2.25,
+  "trend_share": 0.62,
+  "rmse": 0.126,
+  "max_top_pivot_mass": 0.0
+ },
+ "conversion x2 | equal_binary": {
+  "D10": [
+   0.107,
+   0.173,
+   0.223,
+   0.301
+  ],
+  "ratio": 2.81,
+  "trend_share": 0.79,
+  "rmse": 0.022,
+  "max_top_pivot_mass": 0.0
+ },
+ "conversion x2 | asymmetric_binary": {
+  "D10": [
+   0.117,
+   0.17,
+   0.198,
+   0.227
+  ],
+  "ratio": 1.94,
+  "trend_share": 0.51,
+  "rmse": 0.061,
+  "max_top_pivot_mass": 0.0
+ },
+ "conversion x2 | broad_binary": {
+  "D10": [
+   0.12,
+   0.191,
+   0.226,
+   0.263
+  ],
+  "ratio": 2.18,
+  "trend_share": 0.6,
+  "rmse": 0.043,
+  "max_top_pivot_mass": 0.0
+ },
+ "no optical feedback | equal_binary": {
+  "D10": [
+   0.078,
+   0.098,
+   0.127,
+   0.177
+  ],
+  "ratio": 2.28,
+  "trend_share": 0.63,
+  "rmse": 0.105,
+  "max_top_pivot_mass": 0.0
+ },
+ "no optical feedback | asymmetric_binary": {
+  "D10": [
+   0.09,
+   0.106,
+   0.125,
+   0.148
+  ],
+  "ratio": 1.64,
+  "trend_share": 0.38,
+  "rmse": 0.115,
+  "max_top_pivot_mass": 0.0
+ },
+ "no optical feedback | broad_binary": {
+  "D10": [
+   0.085,
+   0.102,
+   0.123,
+   0.149
+  ],
+  "ratio": 1.76,
+  "trend_share": 0.43,
+  "rmse": 0.116,
+  "max_top_pivot_mass": 0.0
+ },
+ "Zhang growth law | equal_binary": {
+  "D10": [
+   0.096,
+   0.161,
+   0.187,
+   0.213
+  ],
+  "ratio": 2.22,
+  "trend_share": 0.61,
+  "rmse": 0.068,
+  "max_top_pivot_mass": 0.0
+ },
+ "Zhang growth law | asymmetric_binary": {
+  "D10": [
+   0.102,
+   0.145,
+   0.161,
+   0.175
+  ],
+  "ratio": 1.73,
+  "trend_share": 0.42,
+  "rmse": 0.091,
+  "max_top_pivot_mass": 0.0
+ },
+ "Zhang growth law | broad_binary": {
+  "D10": [
+   0.094,
+   0.148,
+   0.168,
+   0.187
+  ],
+  "ratio": 1.99,
+  "trend_share": 0.53,
+  "rmse": 0.084,
+  "max_top_pivot_mass": 0.0
+ }
+}

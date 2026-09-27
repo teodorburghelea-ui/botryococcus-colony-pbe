@@ -53,6 +53,26 @@ class QSThr(Q.QSSolver):
             outputs[t] = o; moments[t] = m
         return outputs, moments, {}
 
+class QSThrPerm(QSThr):
+    def simulate(self, data, pc, parameters, model, dt=None, scalar=False, diagnose=False):
+        orig = data.light
+        class _D: pass
+        P = np.atleast_2d(parameters); nc = len(P); outputs = {}
+        for t in sorted(data.times(pc)):
+            o = np.zeros((4, nc, 13))
+            for j, v in enumerate(A.VOLUMES):
+                if t == 0:
+                    o[j] = self.observe(self.initialize(data.hist[pc, v, 0.])[:, None])[:, 0]; continue
+                I = data.light(t, pc, v); Is = data.light(t, pc, data.perm[v]); g = data.growth_scale*3*.055*I/(I+.7)
+                for c, (b, dc, eta, _) in enumerate(P):
+                    k = 0. if model == 'size_only' else eta/2.
+                    gb = expit(8*(np.log(self.d)-np.log(dc*(Is/2.)**k))); gh = expit(8*(np.log(self.d)-np.log(dc)))
+                    L = self.Gd*g + (self.Bd*gb[None, :])*b + .02*(self.Hd*gh[None, :])
+                    w, V = np.linalg.eig(L); vv = np.real(V[:, np.argmax(np.real(w))]); vv = np.clip(vv*np.sign(vv.sum()), 0, None); vv /= vv.sum()
+                    o[j, c] = self.obs@vv
+            outputs[t] = o
+        return outputs, {}, {}
+
 if __name__ == '__main__':
     t = sys.argv[1]
     if t == 'check':
@@ -60,6 +80,32 @@ if __name__ == '__main__':
         a, _, _ = ThrSolver('broad_binary', observed_edges=d.edges).simulate(d, 10, p, 'size_only')
         b, _, _ = A.Solver('broad_binary', observed_edges=d.edges).simulate(d, 10, p, 'size_only')
         print('k=0 max diff vs size-only solver:', max(np.abs(a[x]-b[x]).max() for x in a))
+    elif t.startswith('qsscen:'):
+        _, scen, law = t.split(':'); d = A.Data(scen); solver = QSThr(law, observed_edges=d.edges)
+        nested = json.loads((Q.OUT/f'qs_{scen}_{law}.json').read_text())['size_only']['parameters']
+        p, _, _ = A.fit(d, solver, 'instantaneous', nested)
+        te, _, _ = solver.simulate(d, 10, p, 'instantaneous'); tr, _, _ = solver.simulate(d, 3, p, 'instantaneous')
+        (OUT/f'qsscen_{scen}_{law}.json').write_text(json.dumps(dict(scenario=scen, law=law, parameters=list(map(float, p)), training_TV=float(A.tv_scores(d, 3, tr)[0]), transfer_TV=float(A.tv_scores(d, 10, te)[0]))))
+        print('qsscen', scen, law, round(float(A.tv_scores(d, 10, te)[0]), 3), flush=True)
+    elif t.startswith('qsscr:'):
+        _, law, k = t.split(':'); d = A.Data('primary'); d.perm = dict(zip(A.VOLUMES, Q.DER[int(k)]))
+        solver = QSThrPerm(law, observed_edges=d.edges)
+        nested = json.loads((Q.OUT/f'qs_primary_{law}.json').read_text())['size_only']['parameters']
+        p, _, _ = A.fit(d, solver, 'instantaneous', nested)
+        te, _, _ = solver.simulate(d, 10, p, 'instantaneous'); tr, _, _ = solver.simulate(d, 3, p, 'instantaneous')
+        (OUT/f'qsscr_{law}_{k}.json').write_text(json.dumps(dict(law=law, perm=Q.DER[int(k)], parameters=list(map(float, p)), training_TV=float(A.tv_scores(d, 3, tr)[0]), transfer_TV=float(A.tv_scores(d, 10, te)[0]))))
+        print('qsscr', law, k, round(float(A.tv_scores(d, 10, te)[0]), 3), flush=True)
+    elif t.startswith('widebound:'):
+        law = t.split(':')[1]
+        def decode(q, model):
+            q = np.atleast_2d(q); b = 10**(-2.5+3.5*q[:, 0]); dc = .035*(.5/.035)**q[:, 1]
+            eta = -3+6*q[:, 2] if model != 'size_only' else np.zeros(len(q)); return np.c_[b, dc, eta, np.zeros(len(q))]
+        A.decode = decode; d = A.Data('primary'); solver = QSThr(law, observed_edges=d.edges)
+        nb = json.loads((Q.OUT/f'qs_primary_{law}.json').read_text())['size_only']['parameters']
+        p, _, _ = A.fit(d, solver, 'size_only', None); p2, _, _ = A.fit(d, solver, 'instantaneous', p)
+        te, _, _ = solver.simulate(d, 10, p2, 'instantaneous')
+        (OUT/f'widebound_{law}.json').write_text(json.dumps(dict(law=law, parameters=list(map(float, p2)), k=float(p2[2]/2), transfer_TV=float(A.tv_scores(d, 10, te)[0]))))
+        print('widebound', law, round(float(A.tv_scores(d, 10, te)[0]), 3), flush=True)
     else:
         kind, law = t.split(':'); d = A.Data('primary')
         solver = (ThrSolver if kind == 'dyn' else QSThr)(law, observed_edges=d.edges)

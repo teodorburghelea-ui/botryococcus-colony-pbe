@@ -1,0 +1,4 @@
+qsscen bins_minus_0p011 equal_binary 0.293
+qsscen shift_left asymmetric_binary 0.253
+qsscen shift_right asymmetric_binary 0.271
+qsscen tail_up equal_binary 0.268
