@@ -1,0 +1,54 @@
+scan_2_equal_binary {'size_only': (0.288, 0.409), 'instantaneous': (0.201, 0.357)}
+scan_4_equal_binary {'size_only': (0.275, 0.37), 'instantaneous': (0.232, 0.339)}
+scan_4_asymmetric_binary {'size_only': (0.363, 0.437), 'instantaneous': (0.324, 0.386)}
+scan_2_asymmetric_binary {'size_only': (0.362, 0.443), 'instantaneous': (0.281, 0.392)}
+Traceback (most recent call last):
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 113, in <module>
+    task(t)
+    ~~~~^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 96, in task
+    s, law = float(a[0]), a[1]; d = ScaledData('primary', s); fit_pair(d, A.Solver(law, observed_edges=d.edges), f'scan_{s:g}_{law}')
+                                                              ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 71, in fit_pair
+    p, trace, _ = A.fit(data, solver, model, nested); nested = p
+                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 228, in fit
+    pred,_,_=solver.simulate(data,3,pp,model)
+             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 183, in simulate
+    raise ValueError('CFL bound exceeded; reduce timestep')
+ValueError: CFL bound exceeded; reduce timestep
+Traceback (most recent call last):
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 113, in <module>
+    task(t)
+    ~~~~^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 96, in task
+    s, law = float(a[0]), a[1]; d = ScaledData('primary', s); fit_pair(d, A.Solver(law, observed_edges=d.edges), f'scan_{s:g}_{law}')
+                                                              ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 71, in fit_pair
+    p, trace, _ = A.fit(data, solver, model, nested); nested = p
+                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 228, in fit
+    pred,_,_=solver.simulate(data,3,pp,model)
+             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 183, in simulate
+    raise ValueError('CFL bound exceeded; reduce timestep')
+ValueError: CFL bound exceeded; reduce timestep
+Traceback (most recent call last):
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 113, in <module>
+    task(t)
+    ~~~~^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 96, in task
+    s, law = float(a[0]), a[1]; d = ScaledData('primary', s); fit_pair(d, A.Solver(law, observed_edges=d.edges), f'scan_{s:g}_{law}')
+                                                              ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/qs_tests.py", line 71, in fit_pair
+    p, trace, _ = A.fit(data, solver, model, nested); nested = p
+                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 228, in fit
+    pred,_,_=solver.simulate(data,3,pp,model)
+             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 183, in simulate
+    raise ValueError('CFL bound exceeded; reduce timestep')
+ValueError: CFL bound exceeded; reduce timestep
+scan_2_broad_binary {'size_only': (0.321, 0.404), 'instantaneous': (0.224, 0.364)}
+scan_4_broad_binary {'size_only': (0.315, 0.404), 'instantaneous': (0.259, 0.362)}

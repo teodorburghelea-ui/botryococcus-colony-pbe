@@ -60,7 +60,11 @@ def wide(law):
         eta = -8+16*q[:, 2] if model != 'size_only' else np.zeros(len(q))
         return np.c_[b, dc, eta, np.zeros(len(q))]
     A.decode = decode
-    data = A.Data('primary'); solver = A.Solver(law, observed_edges=data.edges)
+    class SmallStep(A.Solver):
+        # eta up to 8 raises separation rates ~55x; dt=0.01 d keeps the positivity (CFL) bound.
+        def simulate(self, *a, **k):
+            k.setdefault('dt', .01); return A.Solver.simulate(self, *a, **k)
+    data = A.Data('primary'); solver = SmallStep(law, observed_edges=data.edges)
     nested = json.loads((A.OUT / 'primary' / f'{law}_size_only.json').read_text())['parameters']
     p, tr, te = run_fit(data, solver, 'instantaneous', nested)
     (OUT / f'wide_{law}.json').write_text(json.dumps(dict(law=law, parameters=list(map(float, p)), training_TV=tr, transfer_TV=te)))
