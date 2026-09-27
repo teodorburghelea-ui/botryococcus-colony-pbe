@@ -93,7 +93,12 @@ def task(t):
     if kind == 'qs':
         scen, law = a; d = A.Data(scen); fit_pair(d, QSSolver(law, observed_edges=d.edges), f'qs_{scen}_{law}')
     elif kind == 'scan':
-        s, law = float(a[0]), a[1]; d = ScaledData('primary', s); fit_pair(d, A.Solver(law, observed_edges=d.edges), f'scan_{s:g}_{law}')
+        s, law = float(a[0]), a[1]; d = ScaledData('primary', s)
+        class Scaled(A.Solver):
+            # faster growth tightens the positivity (CFL) bound; shrink the step accordingly
+            def simulate(self, *x, **k):
+                k.setdefault('dt', .05/max(1., s/2)); return A.Solver.simulate(self, *x, **k)
+        fit_pair(d, Scaled(law, observed_edges=d.edges), f'scan_{s:g}_{law}')
     elif kind == 'qsscramble':
         law, k = a[0], int(a[1]); d = A.Data('primary'); d.perm = dict(zip(A.VOLUMES, DER[k]))
         base = json.loads((OUT/f'qs_primary_{law}.json').read_text())

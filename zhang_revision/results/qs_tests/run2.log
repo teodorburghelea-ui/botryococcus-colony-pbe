@@ -1,0 +1,3 @@
+scan_8_asymmetric_binary {'size_only': (0.397, 0.457), 'instantaneous': (0.397, 0.457)}
+scan_8_equal_binary {'size_only': (0.29, 0.369), 'instantaneous': (0.289, 0.346)}
+scan_8_broad_binary {'size_only': (0.331, 0.402), 'instantaneous': (0.331, 0.383)}
