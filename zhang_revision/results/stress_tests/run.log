@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 106, in <module>
+    elif t.startswith('wide:'): wide(t.split(':')[1])
+                                ~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 65, in wide
+    p, tr, te = run_fit(data, solver, 'instantaneous', nested)
+                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 43, in run_fit
+    params, trace, prefix = A.fit(data, solver, model, nested)
+                            ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 228, in fit
+    pred,_,_=solver.simulate(data,3,pp,model)
+             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 183, in simulate
+    raise ValueError('CFL bound exceeded; reduce timestep')
+ValueError: CFL bound exceeded; reduce timestep
+Traceback (most recent call last):
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 106, in <module>
+    elif t.startswith('wide:'): wide(t.split(':')[1])
+                                ~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 65, in wide
+    p, tr, te = run_fit(data, solver, 'instantaneous', nested)
+                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 43, in run_fit
+    params, trace, prefix = A.fit(data, solver, model, nested)
+                            ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 228, in fit
+    pred,_,_=solver.simulate(data,3,pp,model)
+             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 183, in simulate
+    raise ValueError('CFL bound exceeded; reduce timestep')
+ValueError: CFL bound exceeded; reduce timestep
+Traceback (most recent call last):
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 106, in <module>
+    elif t.startswith('wide:'): wide(t.split(':')[1])
+                                ~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 65, in wide
+    p, tr, te = run_fit(data, solver, 'instantaneous', nested)
+                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/stress_tests.py", line 43, in run_fit
+    params, trace, prefix = A.fit(data, solver, model, nested)
+                            ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 228, in fit
+    pred,_,_=solver.simulate(data,3,pp,model)
+             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/teo/Nextcloud/Exploratory_Algal_Colonies/Paper_Draft/Draft_2026-09-07/acceptance_revision/matched_ablation/zhang_revision/analysis.py", line 183, in simulate
+    raise ValueError('CFL bound exceeded; reduce timestep')
+ValueError: CFL bound exceeded; reduce timestep
