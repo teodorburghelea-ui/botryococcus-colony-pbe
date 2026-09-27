@@ -9,3 +9,10 @@ qs_primary_equal_binary {'size_only': (0.298, 0.463), 'instantaneous': (0.267, 0
 qs_shift_left_broad_binary {'size_only': (0.293, 0.434), 'instantaneous': (0.252, 0.386)}
 qs_shift_right_asymmetric_binary {'size_only': (0.316, 0.425), 'instantaneous': (0.26, 0.396)}
 qs_shift_right_equal_binary {'size_only': (0.278, 0.422), 'instantaneous': (0.278, 0.422)}
+qs_shift_right_broad_binary {'size_only': (0.287, 0.426), 'instantaneous': (0.244, 0.405)}
+qs_broaden_asymmetric_binary {'size_only': (0.295, 0.398), 'instantaneous': (0.244, 0.364)}
+qs_broaden_broad_binary {'size_only': (0.273, 0.391), 'instantaneous': (0.229, 0.374)}
+qs_broaden_equal_binary {'size_only': (0.265, 0.392), 'instantaneous': (0.263, 0.387)}
+qs_tail_up_equal_binary {'size_only': (0.302, 0.469), 'instantaneous': (0.27, 0.461)}
+qs_tail_up_asymmetric_binary {'size_only': (0.35, 0.461), 'instantaneous': (0.294, 0.433)}
+qs_tail_up_broad_binary {'size_only': (0.317, 0.463), 'instantaneous': (0.269, 0.422)}
