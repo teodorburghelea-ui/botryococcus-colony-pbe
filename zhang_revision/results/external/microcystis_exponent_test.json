@@ -1,0 +1,55 @@
+{
+ "Xu 2026 (primary), day 54; H2 excluded (early growth suppressed); dark excluded": {
+  "weighted_slope": 0.6161134730846303,
+  "ols_slope": 0.5642257984436679,
+  "reduced_chi2": 361.45335967879214,
+  "pairwise_exponents": {
+   "18->54": 0.9931738301680678,
+   "54->108": -0.22657536146852822
+  },
+  "intervals": {
+   "error bars only (protocol wording)": [
+    0.564,
+    0.668,
+    "PASS"
+   ],
+   "error bars scaled by lack of fit": [
+    -5.789,
+    7.021,
+    "INCONCLUSIVE"
+   ],
+   "OLS residuals": [
+    -3.609,
+    4.738,
+    "INCONCLUSIVE"
+   ]
+  }
+ },
+ "Xu 2023 (secondary), day 42; all illuminated levels (positive growth)": {
+  "weighted_slope": 0.25730327677516696,
+  "ols_slope": 0.2463110864720144,
+  "reduced_chi2": 12.098051600831722,
+  "pairwise_exponents": {
+   "18->54": 0.2299180113365893,
+   "54->108": 0.5055280332267513,
+   "108->216": -0.08406426478847447
+  },
+  "intervals": {
+   "error bars only (protocol wording)": [
+    0.219,
+    0.296,
+    "FAIL"
+   ],
+   "error bars scaled by lack of fit": [
+    -0.039,
+    0.554,
+    "INCONCLUSIVE"
+   ],
+   "OLS residuals": [
+    -0.039,
+    0.531,
+    "INCONCLUSIVE"
+   ]
+  }
+ }
+}
